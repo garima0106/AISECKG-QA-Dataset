@@ -1,0 +1,1142 @@
+{
+    "questions": [
+        {
+            "QID": 1,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What is a session ID, and why is it important?",
+            "answer": "A session ID is a unique identifier assigned to a user during a session with a web server. It is important because it helps maintain state information between multiple requests and responses, such as user authentication status and user-specific information."
+        },
+        {
+            "QID": 2,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "How is a session ID generated?",
+            "answer": "A session ID is generated on the server-side and is usually a random string of characters. It can be stored in a cookie or URL parameter to identify the user's session."
+        },
+        {
+            "QID": 3,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What is a cookie, and how is it related to session ID?",
+            "answer": "A cookie is a small piece of data that is stored in a user's browser. It can contain information such as a session ID, which is used by the server to identify the user's session."
+        },
+        {
+            "QID": 4,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "How can session IDs be used to maintain user authentication status?",
+            "answer": "When a user logs into a website, a session ID can be generated and used to maintain their authentication status throughout their session. The server can check the session ID to determine if the user is still authenticated."
+        },
+        {
+            "QID": 5,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What are some potential security risks associated with session IDs?",
+            "answer": "Session hijacking attacks, where an attacker steals a user's session ID and uses it to impersonate the user, is a potential security risk associated with session IDs."
+        },
+        {
+            "QID": 6,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "How can session hijacking attacks be prevented?",
+            "answer": "Session hijacking attacks can be prevented by generating session IDs randomly, encrypting them, and refreshing them frequently. Additionally, using secure connections such as HTTPS can help prevent session hijacking."
+        },
+        {
+            "QID": 7,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "Can session IDs be used to store user-specific information?",
+            "answer": "Yes, session IDs can be used to store user-specific information, such as shopping cart contents or user preferences."
+        },
+        {
+            "QID": 8,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "Are session IDs permanent or temporary?",
+            "answer": "Session IDs are temporary and are usually only valid for the duration of the user's session with the web server."
+        },
+        {
+            "QID": 9,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What happens if a user's session ID is lost or expired?",
+            "answer": "If a user's session ID is lost or expired, the user may need to log in again to establish a new session and obtain a new session ID."
+        },
+        {
+            "QID": 10,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "Can session IDs be used across different devices or browsers?",
+            "answer": "No, session IDs are usually tied to a specific browser or device and cannot be used across different devices or browsers."
+        },
+        {
+            "QID": 11,
+            "Entity": ["Session ID", "Attack"],
+            "Relation": "can_expose",
+            "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question":["How can an attacker steal a user's session ID?", "In what ways can a user's session ID be compromised by attackers?"],
+            "answer": ["An attacker can steal a user's session ID through a variety of means, such as intercepting network traffic, exploiting vulnerabilities in the website's code, or tricking the user into revealing their session ID through a phishing attack.", "Attackers can gain access to a user's session ID through various means, such as intercepting network traffic, exploiting vulnerabilities in the website's code, or using phishing attacks to trick users into revealing their session ID."]
+        },
+        {
+            "QID": 12,
+            "Entity": ["Session ID", "Attack"],
+            "Relation": "can_expose",
+            "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": ["What is session fixation, and how does it exploit session IDs?","What is session fixation, and how does it put a user's session ID at risk?"],
+            "answer": ["Session fixation is an attack where an attacker sets a user's session ID before the user logs in. This allows the attacker to use the user's session to gain access to the website, since the session ID is tied to the attacker's session. The attacker can then use this access to steal sensitive information or perform other malicious actions."
+        },
+        {
+            "QID": 13,
+           "Entity": ["Session ID", "Attack"],
+            "Relation": "can_expose",
+            "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": ["What is session hijacking, and how does it exploit session IDs?","What is session hijacking, and how does it expose a user's session ID to attackers?"],
+            "answer": "Session hijacking is an attack where an attacker steals a user's session ID and uses it to impersonate the user. This allows the attacker to gain access to the user's account and perform malicious actions on their behalf, such as making unauthorized purchases or stealing sensitive information.This exposes the user's session ID to attackers."
+        },
+        {
+            "QID": 14,
+            "Entity": ["Session ID", "Attack"],
+            "Relation": "can_expose",
+            "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": ["What is session replay, and how does it exploit session IDs?","What is session replay, and how does it make a user's session ID vulnerable to attackers?"],
+            "answer": "Session replay is an attack where an attacker records a user's session, including their session ID, and replays it later to gain unauthorized access to the user's account. This attack can be especially effective if the user's session contains sensitive information, such as login credentials."
+        },
+        {
+            "QID": 15,
+            "Entity": ["Session ID", "Attack"],
+            "Relation": "can_expose",
+            "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": ["What is cross-site scripting (XSS), and how does it exploit session IDs?","How does cross-site scripting (XSS) make a user's session ID vulnerable to attackers?"],
+            "answer": "Cross-site scripting is an attack where an attacker injects malicious code into a website, which is then executed by the user's browser. This can allow the attacker to steal the user's session ID, which can then be used for session hijacking or other attacks."
+        },
+        {
+            "QID": 16,
+            "Entity": ["Session ID", "Attacker"],
+            "Relation": "can_exploit",
+            "Prompt": :"generate questions with answers on situations in which attacker can exploit session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What is session fixation, and how can an attacker exploit it?",
+            "answer": "Session fixation is an attack where an attacker sets a user's session ID before the user logs in. This allows the attacker to use the user's session to gain access to the website, since the session ID is tied to the attacker's session. An attacker can exploit session fixation by setting the victim's session ID to a known value and then waiting for the victim to log in. Once the victim logs in, the attacker can use the known session ID to access the victim's account."
+        },
+        {
+            "QID": 17,
+            "Entity": ["Session ID", "Attacker"],
+            "Relation": "can_exploit",
+            "Prompt": :"generate questions with answers on situations in which attacker can exploit session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What is session hijacking, and how can an attacker exploit it?",
+            "answer": "Session hijacking is an attack where an attacker steals a user's session ID and uses it to impersonate the user. An attacker can exploit session hijacking by intercepting the victim's session ID, either through network sniffing or other means. Once the attacker has the victim's session ID, they can use it to access the victim's account and perform unauthorized actions."
+        },
+        {
+            "QID": 18,
+            "Entity": ["Session ID", "Attacker"],
+            "Relation": "can_exploit",
+            "Prompt": :"generate questions with answers on situations in which attacker can exploit session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "How can an attacker exploit session replay?",
+            "answer": "An attacker can exploit session replay by recording a victim's session, including their session ID, and replaying it at a later time. This allows the attacker to access the victim's account without needing to steal their session ID directly. Session replay can be especially effective if the victim's session contains sensitive information, such as login credentials."
+        },
+        {
+            "QID": 19,
+            "Entity": ["Session ID", "Attacker"],
+            "Relation": "can_exploit",
+            "Prompt": :"generate questions with answers on situations in which attacker can exploit session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What is cross-site request forgery (CSRF), and how can an attacker exploit a victim's session ID with it?",
+            "answer": "Cross-site request forgery (CSRF) is an attack where an attacker tricks a victim into performing an action on a website without their knowledge or consent. An attacker can exploit a victim's session ID with CSRF by including the victim's session ID in a forged request. When the victim's browser submits the request, the website will see the request as coming from the victim's session and perform the action on their behalf. This can allow the attacker to perform actions such as making unauthorized purchases or changing the victim's account information."
+        },
+        {
+            "QID": 20,
+            "Entity": ["Session ID", "Attacker"],
+            "Relation": "can_exploit",
+            "Prompt": :"generate questions with answers on situations in which attacker can exploit session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "How can an attacker exploit a session fixation vulnerability in a website?",
+            "answer": "An attacker can exploit a session fixation vulnerability in a website by setting the victim's session ID to a known value and waiting for the victim to log in. Once the victim logs in, the attacker can use the known session ID to access the victim's account. To exploit a session fixation vulnerability, the attacker must first discover the vulnerable website and then find a way to set the victim's session ID before they log in."
+        },
+        {
+            "QID": 21,
+            "Entity": ["Session ID", "securityTeam"],
+            "Relation": "can_analyze",
+            "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What tools can an ethical hacker use to analyze session ID vulnerabilities?",
+            "answer": "An ethical hacker can use a variety of tools to analyze session ID vulnerabilities, such as Burp Suite, OWASP ZAP, and Fiddler. These tools allow the hacker to intercept and manipulate HTTP requests, including session ID values, to identify potential vulnerabilities and test for exploits."
+        },
+        {
+            "QID": 22,
+            "Entity": ["Session ID", "securityTeam"],
+            "Relation": "can_analyze",
+            "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What is session hijacking, and how can an ethical hacker analyze it?",
+            "answer": "Session hijacking is an attack where an attacker steals a user's session ID and uses it to impersonate the user. An ethical hacker can analyze session hijacking by monitoring network traffic for suspicious activity, such as multiple requests from the same session ID or requests from an unknown IP address. They can also use tools like Wireshark to capture and analyze network traffic for signs of session hijacking."
+        },
+        {
+            "QID": 23,
+            "Entity": ["Session ID", "securityTeam"],
+            "Relation": "can_analyze",
+            "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What is session fixation, and how can an ethical hacker analyze it?",
+            "answer": "Session fixation is an attack where an attacker sets a user's session ID before the user logs in. An ethical hacker can analyze session fixation by manipulating the session ID value and monitoring the application's behavior. They can also use tools like Burp Suite or OWASP ZAP to intercept and modify HTTP requests to test for session fixation vulnerabilities."
+        },
+        {
+            "QID": 24,
+            "Entity": ["Session ID", "securityTeam"],
+            "Relation": "can_analyze",
+            "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "How can an ethical hacker analyze the effectiveness of a website's session ID management?",
+            "answer": "An ethical hacker can analyze the effectiveness of a website's session ID management by testing for common vulnerabilities, such as session hijacking, session fixation, and session prediction. They can also test for the use of secure session management techniques, such as using HTTPS, using secure cookies, and regenerating session IDs after a user logs in or out."
+        },
+        {
+            "QID": 25,
+            "Entity": ["Session ID", "securityTeam"],
+            "Relation": "can_analyze",
+            "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What is session prediction, and how can an ethical hacker analyze it?",
+            "answer": "Session prediction is an attack where an attacker guesses a user's session ID. An ethical hacker can analyze session prediction by monitoring network traffic for repeated or sequential session ID values, which can indicate a predictable session ID generation algorithm. They can also use tools like OWASP ZAP to scan for vulnerabilities related to session prediction."
+        },
+
+        {
+            "QID": 26,
+            "Entity": ["Session ID", "Vulnerability"],
+            "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
+            "Method": "few-shot-context",
+            "question": ["How can exposure of session ID make an app vulnerable?","How does exposing a session ID make an application vulnerable?"],
+            "answer": "If a session ID is exposed, an attacker could potentially use it to hijack the user's session and gain unauthorized access to the user's account or sensitive data. This can make the app vulnerable to attacks such as session hijacking, session fixation, and session prediction."
+        },
+        {
+            "QID": 27,
+            "Entity": ["Session ID", "Vulnerability"],
+            "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
+            "Method": "few-shot-context",
+            "question": ["What tools are commonly used to analyze vulnerabilities related to session ID?","What are some commonly used tools to analyze vulnerabilities related to session ID?"],
+            "answer": "There are several tools that can be used to analyze vulnerabilities related to session ID, such as Burp Suite, OWASP ZAP, and Fiddler. These tools allow security professionals to intercept and manipulate HTTP requests, including session ID values, to identify potential vulnerabilities and test for exploits."
+        },
+        {
+            "QID": 28,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "What are cookies used for?",
+            "answer": "Cookies are used to keep track of user activity, store user preferences and login information, and remember user information across multiple pages or visits to the website."
+        },
+        {
+            "QID": 29,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "What is the difference between session cookies and persistent cookies?",
+            "answer": "Session cookies are temporary and are deleted once the user closes their browser, while persistent cookies remain on the user's device until they expire or are manually deleted."
+        },
+        {
+            "QID": 30,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Can cookies track user behavior across different websites?",
+            "answer": "Yes, cookies can potentially track user behavior across different websites."
+        },
+        {
+            "QID": 31,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "What are some potential privacy concerns related to cookies?",
+            "answer": "Some users may be concerned about cookies potentially tracking their behavior across different websites."
+        },
+        {
+            "QID": 32,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Are cookies created by the website or the user?",
+            "answer": "Cookies are created by the website server."
+        },
+        {
+            "QID": 33,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Can cookies be read by any server?",
+            "answer": "Cookies can be read by the website or any other server that the user subsequently visits."
+        },
+        {
+            "QID": 34,
+            "Entity": ["Cookies"],
+            "Method": "zero-shot-para",
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "question": "What are some examples of how cookies are used?",
+            "answer": "Cookies are used to identify and authenticate users, track user behavior, and personalize website content."
+        },
+        {
+            "QID": 35,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Can users disable cookies in their browser settings?",
+            "answer": "Yes, some users may choose to disable cookies in their browser settings to protect their privacy."
+        },
+
+        {
+            "QID":36,
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What are cookies in the context of an app?",
+            "answer": "Cookies are small text files stored on a user's device by a website or app to track user activity and store user preferences."
+        },
+        {
+            "QID:37",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "How are cookies created by an app?",
+            "answer": "An app creates cookies by sending a small text file to a user's device which is then stored on the device."
+        },
+        {
+            "QID:38",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "Why do apps use cookies?",
+            "answer": "Apps use cookies to track user activity, store user preferences, and personalize the user experience."
+        },
+        {
+            "QID:39",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "How do cookies impact app performance?",
+            "answer": "Cookies can impact app performance by slowing down page load times, using up device storage space, and increasing data usage."
+        },
+        {
+           "QID:40",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "Can cookies be deleted from an app?",
+            "answer": "Yes, cookies can be deleted from an app by clearing the app cache and/or deleting the app's data from the device settings."
+        },
+        {
+            "QID:41",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "Are cookies secure in an app?",
+            "answer": "Cookies can be secure in an app if they are encrypted and/or stored in a secure manner. However, if they are not properly secured, they can be vulnerable to attacks such as cross-site scripting (XSS) and cross-site request forgery (CSRF)."
+        },
+        {
+
+            "QID:42",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "What happens if a user blocks cookies in an app?",
+            "answer": "If a user blocks cookies in an app, the app may not function properly and certain features may be disabled. Additionally, the app may not be able to track user activity or store user preferences."
+        },
+        {
+            "QID:43",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "id": "QID44",
+            "question": "How do cookies affect app privacy?",
+            "answer": "Cookies can affect app privacy by tracking user activity and collecting user data, which can be used for targeted advertising or shared with third-party advertisers."
+        },
+        {
+            "QID:44",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "Can cookies be used to identify a user in an app?",
+            "answer": "Yes, cookies can be used to identify a user in an app by tracking user activity and storing user data."
+        },
+        {
+            "QID:45",
+            "Entity" : ["Cookies", "App"], 
+            "Relation": ["has_a"],
+            "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+            "Method": "zero-shot-context-AIsecKG-entity-relation",
+            "question": "How can app developers ensure the security of cookies?",
+            "answer": "App developers can ensure the security of cookies by encrypting them, storing them in a
+
+  },
+  {
+    "QID":46,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "question": "How can an ethical hacker analyze cookies in an app?",
+    "answer": "An ethical hacker can analyze cookies in an app by using various tools and techniques to check for vulnerabilities, such as intercepting network traffic, examining the cookie's contents, and testing the app's behavior under different cookie settings."
+    },
+  {
+    "QID":47,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "question": "What kind of information can an app's cookies store?",
+    "answer": "An app's cookies can store various types of information, such as user preferences, login credentials, session data, and shopping cart contents."
+  },
+  {
+    "QID":48,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "question": "What is the purpose of an app using cookies?",
+    "answer": "An app uses cookies to provide a more personalized user experience by remembering user preferences and login credentials, as well as to track user behavior and gather analytics data."
+  },
+  {
+    "QID":49,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "question": "What are some risks associated with an app using cookies?",
+    "answer": "Some risks associated with an app using cookies include data theft, session hijacking, cross-site scripting (XSS) attacks, and cookie tampering."
+  },
+  {
+    "QID":50,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "question": "How can an app protect user privacy when using cookies?",
+    "answer": "An app can protect user privacy when using cookies by implementing secure cookie policies, using encryption and secure transmission protocols, and giving users control over their cookie settings."
+  },
+  {
+    "QID":51,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "question": "What is the difference between first-party and third-party cookies?",
+    "answer": "First-party cookies are set by the website being visited, while third-party cookies are set by a domain other than the one being visited, such as an advertising network or social media platform."
+  },
+  {
+    "QID":52,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "question": "How can an app detect if a user has disabled cookies?",
+    "answer": "An app can detect if a user has disabled cookies by checking the cookie settings in the user's browser or by attempting to set a test cookie and checking if it is stored and retrieved properly."
+  },
+  {
+    "QID":53,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "question": "What is the role of the SameSite attribute in cookies?",
+    "answer": "The SameSite attribute in cookies is used to prevent cross-site request forgery (CSRF) attacks by specifying whether the cookie can be sent with cross-site requests."
+  },
+  { 
+    "QID":54,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "question": "What is cookie stealing?",
+    "answer": "Cookie stealing is a technique used by attackers to obtain a user's cookies, which can be used to gain unauthorized access to the user's account or to impersonate the user."
+  },
+  { 
+    "QID":55,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["can_analyze"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')",
+    "question": "What is cookie poisoning?",
+    "answer": "Cookie poisoning is a type of attack in which an attacker manipulates a cookie to gain unauthorized access to an app or to manipulate app behavior." 
+  },
+
+  {
+    "QID":56,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "In the context of an app, what is the meaning of cookies?",
+    "answer": "Cookies are small pieces of data stored by the app on the user's device that can be accessed by the app to remember user preferences or track user behavior."
+},
+{
+    "QID":57,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "How does an app use cookies?",
+    "answer": "An app uses cookies to store user preferences or track user behavior. This information can be used to provide personalized experiences or to analyze user behavior for marketing purposes."
+},
+{ 
+    "QID":58,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "Can an app function properly without using cookies?",
+    "answer": "Yes, an app can function without using cookies, but it may not be able to provide personalized experiences or track user behavior."
+  },
+{
+    "QID":59,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "What are the risks associated with cookies in an app?",
+    "answer": "Cookies can potentially be used by malicious actors to steal user information or track user behavior without their consent."
+  },
+ {
+    "QID":60,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "How can an app ensure the security of cookies?",
+    "answer": "An app can ensure the security of cookies by using encryption and secure protocols for transmitting data, setting appropriate expiration dates for cookies, and implementing secure authentication mechanisms."
+  },
+  {
+    "QID":61,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "What happens if a user deletes cookies in an app?",
+    "answer": "If a user deletes cookies in an app, the app will not be able to access any data previously stored in the cookies, which may impact the user's experience on the app."
+  },
+  {
+    "QID":62,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "What is the purpose of session cookies in an app?",
+    "answer": "Session cookies are used to track user activity during a single browsing session, and are deleted once the user closes the app or browser."
+  },
+ {
+    "QID":63,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "What is the purpose of persistent cookies in an app?",
+    "answer": "Persistent cookies are used to store user preferences or track user behavior over a longer period of time, and can be accessed by the app even after the user closes and reopens the app or browser."
+  },
+ {
+    "QID":64,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "How can an app inform users about the use of cookies?",
+    "answer": "An app can inform users about the use of cookies by displaying a cookie consent banner or providing information about cookies in the app's privacy policy."
+  },
+  {
+    "QID":65,
+    "Entity" : ["Cookies", "App"], 
+    "Relation": ["has_a"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
+    "question": "What is the difference between first-party and third-party cookies in an app?",
+    "answer": "First-party cookies are set by the app itself, while third-party cookies are set by third-party services such as advertisers or analytics providers that are integrated into the app."
+  },
+  {
+    "QID":66,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Is it possible for cookies to be exploited by hackers?",
+    "answer": "Yes, cookies can be exploited by hackers to gain unauthorized access to user information or to perform other malicious activities."
+},
+{
+    "QID":67,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Do cookies pose a security vulnerability to an app?",
+    "answer": "Yes, cookies can pose a security vulnerability to an app if they are not properly implemented or secured."
+},
+{
+    "QID:68",
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used to steal user login credentials?",
+    "answer": "Yes, cookies can be used to steal user login credentials if they are not properly encrypted or secured."
+},
+{
+    "QID":69,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be intercepted by third parties?",
+    "answer": "Yes, cookies can be intercepted by third parties, especially if they are transmitted over an unsecured network or if the app does not use HTTPS protocol."
+},
+{
+    "QID":70,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Do cookies store sensitive user information?",
+    "answer": "Yes, cookies can store sensitive user information, such as login credentials, personal preferences, and browsing history."
+},
+{
+    "QID":71,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be deleted or blocked by users?",
+    "answer": "Yes, users can delete or block cookies through their browser settings or using third-party software."
+},
+{
+    "QID":72,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Are cookies used for tracking user behavior?",
+    "answer": "Yes, cookies are often used for tracking user behavior, such as the pages visited, items purchased, and ads clicked."
+},
+{
+    "QID":73,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used for cross-site scripting attacks?",
+    "answer": "Yes, cookies can be used for cross-site scripting attacks if they are not properly validated or sanitized by the app."
+},
+{
+    "QID":74,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used to launch CSRF attacks?",
+    "answer": "Yes, cookies can be used to launch CSRF attacks if they are not properly secured or if the app does not use CSRF tokens."
+},
+{
+    "QID":75,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used for session hijacking attacks?",
+    "answer": "Yes, cookies can be used for session hijacking attacks if they are not properly encrypted or if the app does not use secure session management techniques."
+ },
+{
+    "QID":76,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is packet forwarding?",
+    "answer": "Packet forwarding is the process of transmitting network packets from one device to another based on their destination IP address."
+ },
+{
+    "QID":77,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What information does a packet contain?",
+    "answer": "A packet contains information about its destination IP address, source IP address, and other relevant details."
+  },
+ {
+    "QID":78,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What happens when a packet reaches a router?",
+    "answer": "The router examines the packet's destination IP address and consults its routing table to determine the next hop in the network."
+  },
+ {
+    "QID":79,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is a routing table?",
+    "answer": "A routing table contains information about the network topology and the paths that packets can take to reach their destination."
+  },
+  {
+    "QID":80,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What does the router do after consulting the routing table?",
+    "answer": "The router forwards the packet to the next hop device, which repeats the process until the packet reaches its final destination."
+  },
+  {
+    "QID":81,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is the purpose of packet forwarding?",
+    "answer": "Packet forwarding ensures that data is transmitted efficiently and reliably across a network."
+  },
+  { "QID:82",
+    "Entity" : ["Packet Forwarding"], 
+   "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What happens if a packet needs to traverse multiple devices and networks?",
+    "answer": "The packet is forwarded to the next hop device until it reaches its final destination."
+  },
+  {
+    "QID":83,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "Why is packet forwarding important?",
+    "answer": "Packet forwarding is important for ensuring that data is transmitted efficiently and reliably across a network."
+  },
+ {
+    "QID":84,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "Which devices are responsible for packet forwarding?",
+    "answer": "Routers and other networking devices are responsible for packet forwarding."
+  },
+  {
+    "QID":85,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is the role of the destination IP address in packet forwarding?",
+    "answer": "The destination IP address is used to determine the next hop device in the network."
+},
+{
+    "QID":86,
+    "question": "How can packet forwarding expose an attack?","In what way can an attack be exposed through packet forwarding?",
+    "answer": "Packet forwarding can expose an attack if the routing table is manipulated to redirect packets to a malicious destination.",
+    "Entity": ["Packet forwarding", "Attack"],
+    "Relation": ["can_expose"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+
+  },
+{ 
+  "QID":87,
+    "question": "What is packet hijacking?","What is meant by packet hijacking?",
+    "answer": "Packet hijacking is an attack in which an attacker intercepts and redirects network traffic to a malicious destination.",
+    "Entity": "Attack",
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+ {  "QID":88,
+    "question": "How can packet hijacking be accomplished?","How can packet hijacking be achieved?",
+    "answer": "Packet hijacking can be accomplished by manipulating the routing table on a network device to redirect traffic to a malicious destination.",
+    "Entity": "Attack",
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+  { 
+    "QID":89,
+    "question": "What is a man-in-the-middle attack?","Define the term "man-in-the-middle attack.",
+    "answer": "A man-in-the-middle attack is an attack in which an attacker intercepts and manipulates network traffic between two parties.",
+    "Entity": "Attack",
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+ {  "QID":90,
+    "question": "How can packet forwarding facilitate a man-in-the-middle attack?","How can packet forwarding enable a man-in-the-middle attack?",
+    "answer": "Packet forwarding can facilitate a man-in-the-middle attack if the routing table is manipulated to redirect traffic to an attacker-controlled device.",
+    "Entity": ["Packet forwarding", "Attack"],
+    "Relation": ["can_expose"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+ {  "QID":91,
+    "question": "What is a distributed denial-of-service (DDoS) attack?","What is a DDoS attack?"
+    "answer": "A DDoS attack is an attack in which multiple devices flood a network or server with traffic, causing it to become unavailable.",
+    "Entity": "Attack",
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+ {  "QID":92,
+    "question": "How can packet forwarding be used in a DDoS attack?","How can packet forwarding be utilized in a DDoS attack?",
+    "answer": "Packet forwarding can be used in a DDoS attack by redirecting a large volume of traffic to a single destination, overwhelming the network or server.",
+    "Entity": ["Packet forwarding", "Attack"],
+    "Relation": ["can_expose"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+ {
+    "QID":93,
+    "question": "What is a routing protocol?","Explain what a routing protocol is.",
+    "answer": "A routing protocol is a set of rules and algorithms used by networking devices to exchange routing information and make decisions about packet forwarding.",
+    "Entity": "Packet forwarding",
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+{   "QID":94,
+    "question": "How can a malicious routing protocol be used to launch an attack?","How can a malicious routing protocol be exploited to launch an attack?",
+    "answer": "A malicious routing protocol can be used to redirect traffic to a malicious destination, exposing an attack.",
+    "Entity": ["Packet forwarding", "Attack"],
+    "Relation": ["can_expose"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+     "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+  { "QID":95,
+    "question": "How can packet filtering be used to prevent attacks that rely on packet forwarding?","How can packet filtering be utilized to prevent attacks that rely on packet forwarding?"
+    "answer": "Packet filtering can be used to block traffic that does not meet certain criteria, such as source IP address or port number, to prevent attacks that rely on packet forwarding.",
+    "Entity": ["Packet forwarding", "Attack"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; {"Packet forwarding", "Attack"} and Relation: {"can_expose"}"
+  },
+{
+    "QID":96,
+    "question": "What is packet forwarding?",
+    "answer": "Packet forwarding is the process of forwarding network packets from one network interface to another.",
+    "Entity": "Packet forwarding",
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+ {
+    "QID":97,
+    "question": "What is the role of a security team in analyzing packet forwarding?",
+    "answer": "A security team can analyze packet forwarding to detect and prevent security threats on the network.",
+    "Entity": ["Packet forwarding", "securityTeam"],
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+ {  "QID":98,
+    "question": "What are some security threats that can be detected through packet forwarding analysis?",
+    "answer": "Security threats that can be detected through packet forwarding analysis include packet sniffing, port scanning, and DDoS attacks.",
+    "Entity": ["Packet forwarding", "securityTeam"],
+     "Relation": ["can_analyze"],
+      "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+  {
+    "QID":99,
+    "question": "How can a security team monitor packet forwarding on a network?",
+    "answer": "A security team can monitor packet forwarding on a network using network monitoring tools, such as packet sniffers and intrusion detection systems.",
+    "Entity": ["Packet forwarding", "securityTeam"],
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+  {
+    "QID":100,
+    "question": "What is a packet sniffer?",
+    "answer": "A packet sniffer is a tool that captures and analyzes network traffic to detect security threats and troubleshoot network issues.",
+    "Entity": "securityTeam",
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+  {
+    "QID":101,
+    "question": "How can a security team use packet sniffers to analyze packet forwarding?",
+    "answer": "A security team can use packet sniffers to capture and analyze network traffic to identify abnormal patterns and potential security threats related to packet forwarding.",
+    "Entity": ["Packet forwarding", "securityTeam"]
+    "Relation": ["can_analyze"],
+    "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+  {
+    "QID":102,
+    "question": "What is an intrusion detection system (IDS)?",
+    "answer": "An intrusion detection system is a tool that monitors network traffic for signs of security threats and alerts security personnel when such threats are detected.",
+    "Entity": "securityTeam"
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+  { "QID":103,
+    "question": "How can a security team use an IDS to analyze packet forwarding?",
+    "answer": "A security team can use an IDS to monitor network traffic for suspicious activity related to packet forwarding, such as unusual traffic patterns or unexpected network connections.",
+    "Entity": ["Packet forwarding", "securityTeam"],
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+{   "QID":104,
+    "question": "What is port scanning?",
+    "answer": "Port scanning is the process of systematically scanning a network for open ports on target hosts to identify potential vulnerabilities.",
+    "Entity": "securityTeam",
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+ {
+   "QID":105,
+    "question": "How can a security team detect port scanning through packet forwarding analysis?",
+    "answer": "A security team can detect port scanning through packet forwarding analysis by monitoring traffic patterns and looking for repeated attempts to connect to different ports on the same host.",
+    "Entity": ["Packet forwarding", "securityTeam"],
+    "Relation": ["can_analyze"],
+     "Method": "zero-shot-context-AIsecKG-entity-relation",
+    "Prompt": "Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; {"Packet forwarding", "securityTeam"} and Relation: {"can_analyze"}"
+  },
+  {
+  "QID":106,
+    "question": "What role does packet forwarding play in routing network traffic?",
+    "answer": "Packet forwarding enables routers and other network devices to route network traffic between different networks.",
+    "Entity": ["packet forwarding", "system"],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+
+  },
+    "QID":107,
+    "question": "How can packet forwarding be used to improve network performance?",
+    "answer": "Packet forwarding can be optimized to improve network performance by reducing latency and minimizing packet loss.",
+    "Entity": ["packet forwarding", "system"],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":108,
+    "question": "What is the difference between packet forwarding and packet switching?",
+    "answer": "Packet forwarding refers to the process of forwarding network packets from one network interface to another, while packet switching refers to the process of forwarding packets between different nodes in a network.",
+    "Entity": ["packet forwarding", "data"],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":109,
+    "question": "How can packet forwarding be used to prioritize network traffic?",
+    "answer": "Packet forwarding can be used to prioritize network traffic by implementing Quality of Service (QoS) policies that give certain types of traffic higher priority than others.",
+    "Entity": ["packet forwarding", "system"],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":110,
+    "question": "Can packet forwarding be used to analyze network traffic and detect security threats?",
+    "answer": "Yes, packet forwarding can be used to analyze network traffic and detect security threats such as packet sniffing, port scanning, and DDoS attacks.",
+    "Entity": ["packet forwarding", "data"],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":111,
+    "question": "How can packet forwarding be optimized to reduce network congestion?",
+    "answer": "Packet forwarding can be optimized to reduce network congestion by implementing traffic shaping policies that limit the amount of data that can be sent over the network at any given time.",
+    "Entity": ["packet forwarding", "system"],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":112,
+    "question": "What is the role of packet forwarding in load balancing?",
+    "answer": "Packet forwarding plays a crucial role in load balancing by distributing network traffic across multiple servers to improve performance and prevent server overload.",
+    "Entity": ["packet forwarding", "system"],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":113,
+    "question": "How can packet forwarding be used to enforce network security policies?",
+    "answer": "Packet forwarding can be used to enforce network security policies by blocking or filtering network traffic that violates established policies.",
+    "Entity": ["packet forwarding", "data"],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":114,
+    "question": "What is packet classification?",
+    "answer": "Packet classification is the process of categorizing network traffic based on predefined criteria, such as source and destination IP addresses or packet content.",
+    "Entity": ["packet forwarding", "data"],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":115,
+    "question": "How can packet classification be used in packet forwarding?",
+    "answer": "Packet classification can be used in packet forwarding to prioritize or route network traffic based on its classification.",
+    "Entity": ["packet forwarding", "data"],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+    {
+      "QID: 116",
+       "Entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+        "question": "What is an IP address?","What is the purpose of an IP address?", 
+        "answer": "An IP address is a unique identifier assigned to every device connected to the internet."
+    },
+    {
+      "QID: 117",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What does the term 'IP' stand for?","What does the term 'IP' mean?",
+      "answer": "'IP' stands for 'Internet Protocol.'"
+    },
+    {
+      "QID: 118",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What types of devices are assigned an IP address?","Which devices are assigned an IP address?",
+      "answer": "Every device connected to the internet, including computers, smartphones, routers, and other devices, is assigned an IP address."
+    },
+    {
+      "QID: 119",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is the format of an IP address?","What is the structure of an IP address?",
+      "answer": "An IP address is made up of a series of numbers separated by dots, such as 192.168.1.1."
+    },
+    {
+      "QID: 120",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is the difference between IPv4 and IPv6?","How does IPv6 differ from IPv4?",
+      "answer": "IPv4 is the older protocol and uses 32-bit addresses, which limits the number of possible unique addresses to about 4 billion. IPv6, on the other hand, uses 128-bit addresses, which allows for a virtually unlimited number of unique addresses."
+    },
+    {
+      "QID: 121",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "Who assigns IP addresses to devices?","How IP addresses is assigned to devices?",
+      "answer": "IP addresses are assigned to devices by internet service providers (ISPs)."
+    },
+    {
+      "QID: 122",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is a static IP address?","Tell me about static IP address?",
+      "answer": "A static IP address is an address that stays the same every time a device connects to the internet."
+    },
+    {
+      "QID: 123",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is a dynamic IP address?", "Tell me about dynamic IP address?",
+      "answer": "A dynamic IP address is an address that changes each time a device connects to the internet."
+    },
+    {
+      "QID: 124",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "Why are IP addresses essential for internet functions?", "Why are IP addresses important for internet functions?",
+      "answer": "IP addresses are essential for many internet functions, such as sending and receiving data, browsing websites, and connecting to other devices."
+    },
+    {
+      "QID: 125",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "How does an IP address help identify and communicate with devices on a network?","How does an IP address help devices communicate on a network?",
+      "answer": "An IP address uniquely identifies a device on a network and allows it to send and receive data and communicate with other devices."
+    },
+    {
+      "QID: 126",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "What is the role of an IP address in data analysis?",
+      "answer": "An IP address can help identify the source of data and provide insight into user behavior and patterns."
+    },
+    {
+      "QID: 127",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",v
+      "question": "How can an IP address be used to analyze data?",
+      "answer": "An IP address can be used to track website traffic, monitor user behavior, and detect potential security threats."
+    },
+    {
+      "QID: 128",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "What is the benefit of analyzing IP address data?",
+      "answer": "Analyzing IP address data can provide valuable insights into customer behavior, market trends, and security threats."
+    },
+    {
+      "QID: 129",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "How can IP address data be used to monitor user behavior?",
+      "answer": "By analyzing IP address data, companies can track user activity, including which pages they visit, how long they stay on a site, and what actions they take."
+    },
+    {
+      "QID: 130",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "What is the significance of IP address data in security analysis?",
+      "answer": "IP address data can be used to identify potential security threats, such as suspicious activity or attempted attacks."
+    },
+    {
+      "QID: 131",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "How can IP address data be used to track website traffic?",
+      "answer": "By analyzing IP address data, companies can track the number of visitors to a site, how they arrived at the site, and how long they stay on the site."
+    },
+    {
+      "QID: 132",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "What is the role of IP address data in identifying fraudulent activity?",
+      "answer": "IP address data can be used to identify fraudulent activity, such as fake account creation or credit card fraud, by tracking suspicious IP addresses and behavior patterns."
+    },
+    {
+      "QID: 133",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "How does analyzing IP address data benefit marketing strategies?",
+      "answer": "Analyzing IP address data can provide insight into customer behavior and preferences, helping companies tailor their marketing strategies to specific target audiences."
+    },
+    {
+      "QID: 134",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "What is the value of analyzing IP address data in e-commerce?",
+      "answer": "Analyzing IP address data can help e-commerce companies optimize their website for better customer engagement, identify popular products and categories, and detect potential security threats."
+    },
+    {
+      "QID: 135",
+       "Entity": ["IP address", "data"],
+       "Relation": ["can_analyze"],
+       "Method": "zero-shot-context-AIsecKG-entity-relation",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
+      "question": "How does IP address data support data-driven decision making?",
+      "answer": "By providing valuable insights into user behavior, market trends, and security threats, IP address data supports data-driven decision making across a variety of industries and applications."
+},
+
+]
+}
