@@ -747,7 +747,8 @@ Here are 10 questions with answers in JSON format for the situation where SQL In
 }
 ```
 
-Use JSON format to generate 10 questions with answers for situation on the functions and features  used by attackers to implement XSS attacks.Use JSON format to generate 10 questions with answers for situation on the functions and features  used by attackers to implement XSS attacks.
+Use JSON format to generate 10 questions with answers for situation on the functions and features  used by attackers to implement XSS attacks.
+
 
 {
 "1": {
