@@ -1,0 +1,59 @@
+To generate Python code that can convert the given input into the desired JSON output format, you can use the following code:
+
+```python
+import json
+
+def generate_question_answer_pairs(prompt, entity, relation, ontology, num_questions):
+    data = []
+    for i in range(1, num_questions + 1):
+        question = f"Q: {prompt}\nA: {input(f'Enter answer for question {i}: ')}"
+        data.append({
+            "QID": i,
+            "Prompt": prompt,
+            "Entity": entity,
+            "Relation": relation,
+            "Ontology": ontology,
+            "Method": "Ontology-based",
+            "question": question.split('\n')[0],
+            "answer": question.split('\n')[1].split(': ')[1]
+        })
+    return data
+
+if __name__ == "__main__":
+    # First set of questions and answers
+    input_1 = {
+        "Prompt": "Use JSON format to generate 10 question with answer on situation when sniff mode can detect an attack.",
+        "Entity": ['sniff mode', 'attack'],
+        "Relation": ['can_detect'],
+        "Ontology": [('feature', 'can_detect', 'attack')],
+    }
+    questions_1 = generate_question_answer_pairs(input_1['Prompt'], input_1['Entity'], input_1['Relation'], input_1['Ontology'], 3)
+
+    # Second set of questions and answers
+    input_2 = {
+        "Prompt": "Using JSON format generate 10 questions with answer on situation where attacker can harm the private key.",
+        "Entity": ['attacker', 'private key'],
+        "Relation": ['uses'],
+        "Ontology": [('attacker', 'uses', 'feature')],
+    }
+    questions_2 = generate_question_answer_pairs(input_2['Prompt'], input_2['Entity'], input_2['Relation'], input_2['Ontology'], 3)
+
+    # Third set of questions and answers
+    input_3 = {
+        "Prompt": "Using JSON format generate 10 questions with answer on situation where encryption has a private key",
+        "Entity": ['encryption', 'private key'],
+        "Relation": ['has_a'],
+        "Ontology": [('function', 'has_a', 'feature')],
+    }
+    questions_3 = generate_question_answer_pairs(input_3['Prompt'], input_3['Entity'], input_3['Relation'], input_3['Ontology'], 3)
+
+    # Combine all the generated questions into one list
+    all_questions = questions_1 + questions_2 + questions_3
+
+    # Convert to JSON format
+    output_json = json.dumps(all_questions, indent=4)
+
+    print(output_json)
+```
+
+You can copy and paste this code into a Python environment, and it will prompt you to enter the answers for each question. After providing the answers, the script will generate the JSON output format as shown in the example provided.

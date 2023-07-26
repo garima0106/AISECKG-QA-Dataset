@@ -1,5 +1,4 @@
 {
-    "questions": [
         {
             "QID": 1,
             "Entity": "Session ID",
@@ -1138,5 +1137,4 @@
       "answer": "By providing valuable insights into user behavior, market trends, and security threats, IP address data supports data-driven decision making across a variety of industries and applications."
 },
 
-]
 }
