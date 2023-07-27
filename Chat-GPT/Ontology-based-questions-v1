@@ -37,7 +37,7 @@
 
 
 "Prompt": Using JSON format generate 10 questions with answer on situation where attacker can harm the private key.
-"Entity": ['attacker', 'private key'),
+"Entity": ['attacker', 'private key'],
 "Relation":['uses'],
 "Ontology": [('attacker', 'uses', 'feature')],
 
@@ -74,7 +74,7 @@
 
 "Prompt": Using JSON format generate 10 questions with answer on situation where encryption has a private key
 
-"Entity": ['encryption', 'private key'),
+"Entity": ['encryption', 'private key'],
 "Relation":('has_a'),
 "Ontology": [('function', 'has_a', 'feature')],
 
@@ -889,7 +889,7 @@
 "Prompt": Use JSON format to generate 10 questions with answers for situation on how DoS attack can harm a system
  "Entity": ['DoS attack', 'system'],
 "Relation": ['can_harm'],
-"Ontology": [('attack', 'can_harm', system')],
+"Ontology": [('attack', 'can_harm', 'system')],
 
 {
   "1": {
@@ -992,8 +992,8 @@
 
 "Prompt": Use JSON format to generate 10 questions with answers for situation where attacker implements SMURF attack to harm the system
  "Entity": ['attacker','SMURF attack', 'system'],
-"Relation": ['implements',can_harm'],
-"Ontology": [('attacker', 'implements', 'attack'), ('attack', 'can_harm', system')],
+"Relation": ['implements','can_harm'],
+"Ontology": [('attacker', 'implements', 'attack'), ('attack', 'can_harm', 'system')],
     {
       "question": "What is a SMURF attack?",
       "answer": "A SMURF attack is a type of DDoS attack in which an attacker sends a large number of ICMP packets to a network's broadcast address to overwhelm the target system."
@@ -1084,7 +1084,7 @@
 
 "Prompt": Use JSON format to generate 10 questions with answers for situation on which vulnerabilities attacker can exploit to conduct smurf attack
  "Entity": ['attacker', 'vulnerability','smurf attack'],
-"Relation": [can_exploit'],
+"Relation": ['can_exploit'],
 "Ontology": [('attacker', 'can_exploit', 'vulnerability')],
     {
       "question": "What is the vulnerability that allows SMURF attacks to occur?",
@@ -1175,7 +1175,7 @@
   }
 
 "Prompt":Use JSON format to generate 10 questions with answers for situation in which security team can use software and tools to protect apps and systems against Trojan horse 
- "Entity": ['securityTeam', 'tool', 'apps', Trojan horse' ],
+ "Entity": ['securityTeam', 'tool', 'apps', 'Trojan horse' ],
 "Relation": ['uses'],
 "Ontology": [('securityTeam', 'uses', 'tool')],
   {
@@ -1892,7 +1892,7 @@
 
        
 "Prompt":Use JSON format to generate 10 questions with answers for situation which tools are used to analyze IP packets to detect vulnerability.
-"Entity": [tool','IP packets','securityTeam','vulnerability'],
+"Entity": ['tool','IP packets','securityTeam','vulnerability'],
 "Relation": ['can_analyze','can_detect'],
 "Ontology": [('tool', 'can_analyze', 'data'),('securityTeam', 'can_detect', 'vulnerability')],
 
@@ -3158,7 +3158,7 @@
        
 "Prompt":Use JSON format to generate 10 questions with answers for situation on how attackers can exploit RPC null commands
  "Entity": ['attacker', 'RPC null commands'],
-"Relation": ['uses','implements', can_exploit'],
+"Relation": ['uses','implements', 'can_exploit'],
 "Ontology": [('attacker', 'uses', 'function'),('attacker', 'can_exploit', 'vulnerability'),('attacker', 'implements', 'attack')],
 
 {
@@ -3735,7 +3735,7 @@
 
 "Prompt": Use JSON format to generate 10 questions with answers for situation on how security team use risk assessment techniques to mitigate attacks and threats
 "Entity": ['security team', 'risk assessment techniques', 'mitigate', 'attacks',  'threats'],
-"Relation":' ['uses','can_analyze'],
+"Relation":['uses','can_analyze'],
 "Ontology": [ ('securityTeam', 'uses', 'technique'), ('technique', 'can_analyze', 'vulnerability'),],
 
     {

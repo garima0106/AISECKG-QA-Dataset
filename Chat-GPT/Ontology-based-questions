@@ -114,10 +114,10 @@
 "Ontology": [('user', 'uses', 'system'), ('system', 'has_a', 'feature')],
     
 1. Q: What is access privilege in a system?
-   A: {"Answer": "Access privilege in a system refers to the level of permission that a user has to access, view, modify or delete data or resources within the system."}
+   A: "Access privilege in a system refers to the level of permission that a user has to access, view, modify or delete data or resources within the system."
 
 2. Q: What are some types of access privilege in a system?
-   A: {"Answer": "Types of access privilege in a system include read-only access, write access, execute access, and administrative access."}
+   A: "Types of access privilege in a system include read-only access, write access, execute access, and administrative access."}
 
 3. Q: What is read-only access privilege in a system?
    A: {"Answer": "Read-only access privilege in a system allows a user to view data or resources, but not modify or delete them."}
@@ -148,18 +148,12 @@
 "Relation": ['can_analyze'],
 "Ontology": [('feature', 'can_analyze', 'vulnerability') ,],
 
-
-{
   "question": "What is vulnerability severity analysis?",
   "answer": "Vulnerability severity analysis is the process of assessing the impact and severity of a vulnerability to determine its priority and urgency for remediation."
-}
 
-{
   "question": "How are vulnerability severity levels typically categorized?",
   "answer": "Vulnerability severity levels are typically categorized as low, medium, high, and critical, based on the potential impact on the system and the likelihood of exploitation."
-}
 
-{
   "question": "What factors are considered when determining the severity level of a vulnerability?",
   "answer": "Factors such as the ease of exploitation, potential impact, and affected systems or data are typically considered when determining the severity level of a vulnerability."
 }
@@ -242,19 +236,19 @@
 "Ontology": [('user', 'uses', 'system'), ('system', 'has_a', 'feature')],
 
 1. Q: What are access privileges?
-   A: {"question": "What are access privileges?", "answer": "Access privileges refer to the level of permission granted to a user to access specific resources or perform certain actions on a computer system."}
+   A:"Access privileges refer to the level of permission granted to a user to access specific resources or perform certain actions on a computer system."}
 
 2. Q: How can a system administrator grant access privileges to a user?
-   A: {"question": "How can a system administrator grant access privileges to a user?", "answer": "A system administrator can grant access privileges to a user by assigning the user to a specific user group or role, or by configuring individual access permissions for the user."}
+   A: "A system administrator can grant access privileges to a user by assigning the user to a specific user group or role, or by configuring individual access permissions for the user."}
 
 3. Q: What is the difference between user groups and individual access permissions?
-   A: {"question": "What is the difference between user groups and individual access permissions?", "answer": "User groups are a collection of users who share the same access privileges, while individual access permissions are specific permissions granted to a single user."}
+   A: "User groups are a collection of users who share the same access privileges, while individual access permissions are specific permissions granted to a single user."}
 
 4. Q: What are some common access privileges granted to users?
-   A: {"question": "What are some common access privileges granted to users?", "answer": "Common access privileges granted to users include read, write, execute, delete, and modify permissions."}
+   A:  "Common access privileges granted to users include read, write, execute, delete, and modify permissions."}
 
 5. Q: What is the principle of least privilege?
-   A: {"question": "What is the principle of least privilege?", "answer": "The principle of least privilege is a security concept that requires giving users the minimum level of access required to perform their job functions, in order to minimize the risk of a security breach."}
+   A: "The principle of least privilege is a security concept that requires giving users the minimum level of access required to perform their job functions, in order to minimize the risk of a security breach."}
 
 6. Q: How can a system administrator revoke access privileges from a user?
    A: {"question": "How can a system administrator revoke access privileges from a user?", "answer": "A system administrator can revoke access privileges from a user by removing the user from the user group or role that grants the privileges, or by removing the individual access permissions."}
@@ -3019,7 +3013,7 @@
 "Prompt":Use JSON format to generate 10 questions with answers for situation on how pen testers can use XOR function to analyze vulnerability
  "Entity": ['pen testers', 'XOR function', 'vulnerability'],
 "Relation": ['implements','can_analyze'],
-"Ontology": [('securityTeam', 'implements', 'function'),('function', 'can_analyze', 'vulnerability'),],
+"Ontology": [('securityTeam', 'implements', 'function'),('function', 'can_analyze', 'vulnerability')],
 
 {
   "1": {
@@ -3215,7 +3209,7 @@
 "Prompt":Use JSON format to generate 10 questions with answers for situation on which techniques are used by pen testers to use RPC null commands to analyze vulnerability
  "Entity": ['pen testers', 'RPC null commands', 'vulnerability'],
 "Relation": ['uses','implements','can_analyze'],
-"Ontology": [('securityTeam', 'uses', 'technique'),('securityTeam', 'implements', 'function'),('technique', 'can_analyze', 'vulnerability'),],
+"Ontology": [('securityTeam', 'uses', 'technique'),('securityTeam', 'implements', 'function'),('technique', 'can_analyze', 'vulnerability')],
 
 {
   "1": {
@@ -3263,7 +3257,7 @@
 "Prompt":Use JSON format to generate 10 questions with answers for situation on which tools and techniques use host scripts to analyze vulnerability
  "Entity": ['host scripts', 'tools', 'techniques', 'vulnerability'],
 "Relation": ['has_a','can_analyze'],
-"Ontology": [('technique', 'has_a', 'tool'), ('tool', 'has_a', 'function'),('tool', 'can_analyze', 'vulnerability'),],
+"Ontology": [('technique', 'has_a', 'tool'), ('tool', 'has_a', 'function'),('tool', 'can_analyze', 'vulnerability')],
 
 {
   "1": {
@@ -3459,7 +3453,7 @@
 "Prompt": Use JSON format to generate 10 questions with answers for situation in which attackers can use dos scripts to implement attacks
  "Entity": ['attacker', 'dos scripts', 'attacks' ],
 "Relation": ['uses','implements'],
-"Ontology": [('attacker', 'uses', 'function'),('attacker', 'implements', 'attack'),],
+"Ontology": [('attacker', 'uses', 'function'),('attacker', 'implements', 'attack')],
 
 {
   "1": {
@@ -3743,7 +3737,7 @@
 "Prompt": Use JSON format to generate 10 questions with answers for situation on how security team use risk assessment techniques to mitigate attacks and threats
 "Entity": ['security team', 'risk assessment techniques', 'mitigate', 'attacks',  'threats'],
 "Relation":' ['uses','can_analyze'],
-"Ontology": [ ('securityTeam', 'uses', 'technique'), ('technique', 'can_analyze', 'vulnerability'),],
+"Ontology": [ ('securityTeam', 'uses', 'technique'), ('technique', 'can_analyze', 'vulnerability')],
 
     {
       "question": "What is the role of risk assessment techniques in mitigating attacks and threats?",
@@ -3835,7 +3829,7 @@
  "Prompt": Use JSON format to generate 10 questions with answers for situation on how pen testing can help security team to detect attacks
 "Entity": ['pen testing', 'security team', 'attacks'],
 "Relation": ['uses', 'can_detect'],
-"Ontology": [('securityTeam', 'uses', 'technique'),('technique', 'can_detect', 'attack') ,],
+"Ontology": [('securityTeam', 'uses', 'technique'),('technique', 'can_detect', 'attack')],
 
 
     {
@@ -3929,7 +3923,7 @@
 "Prompt": Use JSON format to generate 10 questions with answers for situation on how port scanning be used to detect attacks
 "Entity": ['port scanning', 'attacks'],
 "Relation": ['can_analyze', 'can_detect'],
-"Ontology": [('technique', 'can_analyze', 'vulnerability'),('technique', 'can_detect', 'attack') ,],
+"Ontology": [('technique', 'can_analyze', 'vulnerability'),('technique', 'can_detect', 'attack')],
 
     {
       "question": "How can port scanning be used to detect attacks?",
