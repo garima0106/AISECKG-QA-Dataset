@@ -4669,7 +4669,7 @@
 
 "Prompt": Use JSON format to generate 10 questions with answers for situation on which tools can be used to detect weak password
 "Entity": ['tools', 'weak password'],
-"Relation": [can_analyze', 'can_detect'],
+"Relation": ['can_analyze', 'can_detect'],
 "Ontology": [('tool', 'can_analyze', 'vulnerability'), ('tool', 'can_detect', 'attack'),],
 
 
@@ -6066,7 +6066,7 @@
     }
  
 "Prompt": Use JSON format to generate 10 questions with answers for situation on if attackers can manipulate IPTables to implement the attack?
-"Entity": ['attackers', 'manipulate', IPTables', 'attack' ],
+"Entity": ['attackers', 'manipulate', 'IPTables', 'attack' ],
 "Relation": ['can_harm'],
 "Ontology": [('attacker', 'can_harm', 'app'),],
 
@@ -8338,7 +8338,7 @@
 
 "Prompt": Use JSON format to generate 10 questions with answers for situation on the system vulnerabilities exposed by the employees.
 "Entity": ['system', 'vulnerabilities', 'employees' ],
-"Relation": ['uses', can_expose'],
+"Relation": ['uses', 'can_expose'],
 "Ontology": [('user', 'uses', 'system'),('system', 'can_expose', 'vulnerability')],
 
     {
