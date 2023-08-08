@@ -1,30 +1,7 @@
-
-JSON structure
-
-{
-			"QID": A1,
-            "Entity": ["Session ID"],
-            "Relation": [""]
-            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
-            "Method": "Zero-Shot-para",
-            "Question": "What is a session ID, and why is it important?",
-            "Answer": "A session ID is a unique identifier assigned to a user during a session with a web server. It is important because it helps maintain state information between multiple requests and responses, such as user authentication status and user-specific information."
-        }
-
-
-"Prompt": 
-"Entity": [],
-"Relation": [],
-"Ontology": [],
-
-
-"Prompt": 
-"Entity": [],
-
-
 "Prompt": Use JSON format to generate 10 questions with answers for situation on what kind of attacks can be detected using Intrusion detection systems
-{
-  "questions": [
+"Entity": ['attacks', 'Intrusion detection systems'],
+"Relation": ['can_detect'],
+"Ontology": [('tool', 'can_detect', 'attack')],
     {
       "question": "What types of attacks can be detected using intrusion detection systems?",
       "answer": "Intrusion detection systems can detect various types of attacks, including network-based attacks, such as port scanning, denial-of-service (DoS) attacks, and intrusion attempts."
@@ -65,14 +42,13 @@ JSON structure
       "question": "What role do intrusion detection systems play in detecting malicious network traffic?",
       "answer": "Intrusion detection systems play a crucial role in detecting malicious network traffic by analyzing packets, examining network protocols, and identifying patterns that indicate malicious activities or known attack signatures."
     }
-  ]
-}
+
 
 "Prompt": Use JSON format to generate 10 questions with answers for situation on how attackers can harm linux boxes
-"Entity": [],
+"Entity": ['attackers', 'linux boxes'],
+"Relation": ['has_a', 'uses' ],
+"Ontology": [('system', 'has_a', 'tool'),('tool', 'uses', 'technique')],
 
-  {
-  "questions": [
     {
       "question": "What are some common methods attackers use to gain unauthorized access to Linux boxes?",
       "answer": "Attackers may use techniques like password cracking, exploiting software vulnerabilities, or social engineering to gain unauthorized access to Linux boxes."
@@ -113,13 +89,13 @@ JSON structure
       "question": "How can attackers use phishing or social engineering techniques to compromise Linux boxes?",
       "answer": "Attackers may use phishing emails or social engineering tactics to trick users into revealing sensitive information or executing malicious actions on Linux boxes."
     }
-  ]
-}
 
-Use JSON format to generate 10 questions with answers for situation on which tools and techniques are used to ensure security in Linux boxes
 
-{
-  "questions": [
+"Prompt": Use JSON format to generate 10 questions with answers for situation on which tools and techniques are used to ensure security in Linux boxes
+"Entity": ['tools', 'techniques', 'security', 'Linux boxes' ],
+"Relation": ['can_harm'],
+"Ontology": [('attacker', 'can_harm', 'system')],
+
     {
       "question": "What are some tools used for vulnerability scanning in Linux boxes?",
       "answer": "Tools like OpenVAS, Nessus, and Nikto can be used for vulnerability scanning in Linux boxes."
@@ -160,5 +136,3 @@ Use JSON format to generate 10 questions with answers for situation on which too
       "question": "What is the role of antivirus software in securing Linux boxes?",
       "answer": "Antivirus software, such as ClamAV and Sophos, can scan files and processes on Linux boxes for malware and malicious activities, helping to ensure a secure environment."
     }
-  ]
-}

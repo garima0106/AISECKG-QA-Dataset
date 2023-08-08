@@ -1,0 +1,242 @@
+{
+            "QID": 26,
+            "Entity": ["Session ID", "Vulnerability"],
+            "Relation": ['can_expose'],
+            "Ontology": [('feature', 'can_expose', 'vulnerability')],
+            "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
+            "Method": "few-shot-context",
+            "question": "How can exposure of session ID make an app vulnerable?",
+            "answer": "If a session ID is exposed, an attacker could potentially use it to hijack the user's session and gain unauthorized access to the user's account or sensitive data. This can make the app vulnerable to attacks such as session hijacking, session fixation, and session prediction."
+        },
+
+        {
+            "QID": 26,
+            "Entity": ["Session ID", "Vulnerability"],
+            "Relation": ['can_expose'],
+            "Ontology": [('feature', 'can_expose', 'vulnerability')],
+            "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
+            "Method": "few-shot-context",
+            "question": "How does exposing a session ID make an application vulnerable?",
+            "answer": "If a session ID is exposed, an attacker could potentially use it to hijack the user's session and gain unauthorized access to the user's account or sensitive data. This can make the app vulnerable to attacks such as session hijacking, session fixation, and session prediction."
+        },
+        {
+            "QID": 27,
+            "Entity": ["Session ID", "Vulnerability"],
+            "Relation": ['can_expose'],
+            "Ontology": [('feature', 'can_expose', 'vulnerability')],
+            "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
+            "Method": "few-shot-context",
+            "question": "What tools are commonly used to analyze vulnerabilities related to session ID?",
+            "answer": "There are several tools that can be used to analyze vulnerabilities related to session ID, such as Burp Suite, OWASP ZAP, and Fiddler. These tools allow security professionals to intercept and manipulate HTTP requests, including session ID values, to identify potential vulnerabilities and test for exploits."
+        },
+
+        {
+            "QID": 27,
+            "Entity": ["Session ID", "Vulnerability"],
+            "Relation": ['can_expose'],
+            "Ontology": [('feature', 'can_expose', 'vulnerability')],
+            "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
+            "Method": "few-shot-context",
+            "question": "What are some commonly used tools to analyze vulnerabilities related to session ID?",
+            "answer": "There are several tools that can be used to analyze vulnerabilities related to session ID, such as Burp Suite, OWASP ZAP, and Fiddler. These tools allow security professionals to intercept and manipulate HTTP requests, including session ID values, to identify potential vulnerabilities and test for exploits."
+        },
+        {
+    "QID":66,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Is it possible for cookies to be exploited by hackers?",
+    "answer": "Yes, cookies can be exploited by hackers to gain unauthorized access to user information or to perform other malicious activities."
+},
+{
+    "QID":67,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Do cookies pose a security vulnerability to an app?",
+    "answer": "Yes, cookies can pose a security vulnerability to an app if they are not properly implemented or secured."
+},
+{
+    "QID:68",
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used to steal user login credentials?",
+    "answer": "Yes, cookies can be used to steal user login credentials if they are not properly encrypted or secured."
+},
+
+{
+    "QID":69,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be intercepted by third parties?",
+    "answer": "Yes, cookies can be intercepted by third parties, especially if they are transmitted over an unsecured network or if the app does not use HTTPS protocol."
+},
+{
+    "QID":70,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Do cookies store sensitive user information?",
+    "answer": "Yes, cookies can store sensitive user information, such as login credentials, personal preferences, and browsing history."
+},
+{
+    "QID":71,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be deleted or blocked by users?",
+    "answer": "Yes, users can delete or block cookies through their browser settings or using third-party software."
+},
+{
+    "QID":72,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Are cookies used for tracking user behavior?",
+    "answer": "Yes, cookies are often used for tracking user behavior, such as the pages visited, items purchased, and ads clicked."
+},
+
+{
+    "QID":73,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used for cross-site scripting attacks?",
+    "answer": "Yes, cookies can be used for cross-site scripting attacks if they are not properly validated or sanitized by the app."
+},
+{
+    "QID":74,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used to launch CSRF attacks?",
+    "answer": "Yes, cookies can be used to launch CSRF attacks if they are not properly secured or if the app does not use CSRF tokens."
+},
+{
+    "QID":75,
+    "Entity" : ["Cookies", "Vulnerability"], 
+    "Relation": ['can_expose'],
+    "Ontology": [('feature', 'can_expose', 'vulnerability')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
+    "question": "Can cookies be used for session hijacking attacks?",
+    "answer": "Yes, cookies can be used for session hijacking attacks if they are not properly encrypted or if the app does not use secure session management techniques."
+ },
+
+ {
+  "QID":106,
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+    "question": "What role does packet forwarding play in routing network traffic?",
+    "answer": "Packet forwarding enables routers and other network devices to route network traffic between different networks.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+
+    },
+
+    {
+    "QID":107,
+    "question": "How can packet forwarding be used to improve network performance?",
+    "answer": "Packet forwarding can be optimized to improve network performance by reducing latency and minimizing packet loss.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":108,
+    "question": "What is the difference between packet forwarding and packet switching?",
+    "answer": "Packet forwarding refers to the process of forwarding network packets from one network interface to another, while packet switching refers to the process of forwarding packets between different nodes in a network.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":109,
+    "question": "How can packet forwarding be used to prioritize network traffic?",
+    "answer": "Packet forwarding can be used to prioritize network traffic by implementing Quality of Service (QoS) policies that give certain types of traffic higher priority than others.",
+     "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+
+   "QID":110,
+    "question": "Can packet forwarding be used to analyze network traffic and detect security threats?",
+    "answer": "Yes, packet forwarding can be used to analyze network traffic and detect security threats such as packet sniffing, port scanning, and DDoS attacks.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":111,
+    "question": "How can packet forwarding be optimized to reduce network congestion?",
+    "answer": "Packet forwarding can be optimized to reduce network congestion by implementing traffic shaping policies that limit the amount of data that can be sent over the network at any given time.",
+     "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":112,
+    "question": "What is the role of packet forwarding in load balancing?",
+    "answer": "Packet forwarding plays a crucial role in load balancing by distributing network traffic across multiple servers to improve performance and prevent server overload.",
+     "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":113,
+    "question": "How can packet forwarding be used to enforce network security policies?",
+    "answer": "Packet forwarding can be used to enforce network security policies by blocking or filtering network traffic that violates established policies.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+
+
+  "QID":114,
+    "question": "What is packet classification?",
+    "answer": "Packet classification is the process of categorizing network traffic based on predefined criteria, such as source and destination IP addresses or packet content.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+     "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },
+  "QID":115,
+    "question": "How can packet classification be used in packet forwarding?",
+    "answer": "Packet classification can be used in packet forwarding to prioritize or route network traffic based on its classification.",
+    "Entity": ["packet forwarding", 'network traffic', 'networks', 'Routers', 'network devices', 'network data', 'attacks'],
+    "Relation": ['has_a'],
+   "Ontology": [('system', 'has_a', 'feature'), ('feature', 'can_detect', 'attack')],
+    "Method": "few-shot-context",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?"
+  },

@@ -4675,7 +4675,318 @@
     }
  
 
+        {
+            "QID": 1,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What is a session ID, and why is it important?",
+            "answer": "A session ID is a unique identifier assigned to a user during a session with a web server. It is important because it helps maintain state information between multiple requests and responses, such as user authentication status and user-specific information."
+        },
+        {
+            "QID": 2,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "How is a session ID generated?",
+            "answer": "A session ID is generated on the server-side and is usually a random string of characters. It can be stored in a cookie or URL parameter to identify the user's session."
+        },
+        {
+            "QID": 3,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What is a cookie, and how is it related to session ID?",
+            "answer": "A cookie is a small piece of data that is stored in a user's browser. It can contain information such as a session ID, which is used by the server to identify the user's session."
+        },
+        {
+            "QID": 4,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "How can session IDs be used to maintain user authentication status?",
+            "answer": "When a user logs into a website, a session ID can be generated and used to maintain their authentication status throughout their session. The server can check the session ID to determine if the user is still authenticated."
+        },
+        {
+            "QID": 5,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What are some potential security risks associated with session IDs?",
+            "answer": "Session hijacking attacks, where an attacker steals a user's session ID and uses it to impersonate the user, is a potential security risk associated with session IDs."
+        },
+        {
+            "QID": 6,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "How can session hijacking attacks be prevented?",
+            "answer": "Session hijacking attacks can be prevented by generating session IDs randomly, encrypting them, and refreshing them frequently. Additionally, using secure connections such as HTTPS can help prevent session hijacking."
+        },
+        {
+            "QID": 7,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "Can session IDs be used to store user-specific information?",
+            "answer": "Yes, session IDs can be used to store user-specific information, such as shopping cart contents or user preferences."
+        },
+        {
+            "QID": 8,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "Are session IDs permanent or temporary?",
+            "answer": "Session IDs are temporary and are usually only valid for the duration of the user's session with the web server."
+        },
+        {
+            "QID": 9,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "What happens if a user's session ID is lost or expired?",
+            "answer": "If a user's session ID is lost or expired, the user may need to log in again to establish a new session and obtain a new session ID."
+        },
+        {
+            "QID": 10,
+            "Entity": "Session ID",
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "question": "Can session IDs be used across different devices or browsers?",
+            "answer": "No, session IDs are usually tied to a specific browser or device and cannot be used across different devices or browsers."
+        },
+       
+       
+       
+        
+        {
+            "QID": 28,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "What are cookies used for?",
+            "answer": "Cookies are used to keep track of user activity, store user preferences and login information, and remember user information across multiple pages or visits to the website."
+        },
+        {
+            "QID": 29,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "What is the difference between session cookies and persistent cookies?",
+            "answer": "Session cookies are temporary and are deleted once the user closes their browser, while persistent cookies remain on the user's device until they expire or are manually deleted."
+        },
+        {
+            "QID": 30,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Can cookies track user behavior across different websites?",
+            "answer": "Yes, cookies can potentially track user behavior across different websites."
+        },
+        {
+            "QID": 31,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "What are some potential privacy concerns related to cookies?",
+            "answer": "Some users may be concerned about cookies potentially tracking their behavior across different websites."
+        },
+        {
+            "QID": 32,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Are cookies created by the website or the user?",
+            "answer": "Cookies are created by the website server."
+        },
+        {
+            "QID": 33,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Can cookies be read by any server?",
+            "answer": "Cookies can be read by the website or any other server that the user subsequently visits."
+        },
+        {
+            "QID": 34,
+            "Entity": ["Cookies"],
+            "Method": "zero-shot-para",
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "question": "What are some examples of how cookies are used?",
+            "answer": "Cookies are used to identify and authenticate users, track user behavior, and personalize website content."
+        },
+        {
+            "QID": 35,
+            "Entity": ["Cookies"],
+            "Prompt": "Generate 10 questions with short answers based on above writeup on cookies.",
+            "Method": "zero-shot-para",
+            "question": "Can users disable cookies in their browser settings?",
+            "answer": "Yes, some users may choose to disable cookies in their browser settings to protect their privacy."
+        },
+  
 
+{
+    "QID":76,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is packet forwarding?",
+    "answer": "Packet forwarding is the process of transmitting network packets from one device to another based on their destination IP address."
+ },
+{
+    "QID":77,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What information does a packet contain?",
+    "answer": "A packet contains information about its destination IP address, source IP address, and other relevant details."
+  },
+ {
+    "QID":78,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What happens when a packet reaches a router?",
+    "answer": "The router examines the packet's destination IP address and consults its routing table to determine the next hop in the network."
+  },
+ {
+    "QID":79,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is a routing table?",
+    "answer": "A routing table contains information about the network topology and the paths that packets can take to reach their destination."
+  },
+  {
+    "QID":80,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What does the router do after consulting the routing table?",
+    "answer": "The router forwards the packet to the next hop device, which repeats the process until the packet reaches its final destination."
+  },
+  {
+    "QID":81,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is the purpose of packet forwarding?",
+    "answer": "Packet forwarding ensures that data is transmitted efficiently and reliably across a network."
+  },
+  { "QID:82",
+    "Entity" : ["Packet Forwarding"], 
+   "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What happens if a packet needs to traverse multiple devices and networks?",
+    "answer": "The packet is forwarded to the next hop device until it reaches its final destination."
+  },
+  {
+    "QID":83,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "Why is packet forwarding important?",
+    "answer": "Packet forwarding is important for ensuring that data is transmitted efficiently and reliably across a network."
+  },
+ {
+    "QID":84,
+    "Entity" :["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "Which devices are responsible for packet forwarding?",
+    "answer": "Routers and other networking devices are responsible for packet forwarding."
+  },
+  {
+    "QID":85,
+    "Entity" : ["Packet Forwarding"], 
+    "Method": "Zero-Shot-para",
+    "Prompt": "Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup",
+    "question": "What is the role of the destination IP address in packet forwarding?",
+    "answer": "The destination IP address is used to determine the next hop device in the network."
+},
+
+
+ 
+    {
+      "QID: 116",
+       "Entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+        "question": "What is an IP address?","What is the purpose of an IP address?", 
+        "answer": "An IP address is a unique identifier assigned to every device connected to the internet."
+    },
+    {
+      "QID: 117",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What does the term 'IP' stand for?","What does the term 'IP' mean?",
+      "answer": "'IP' stands for 'Internet Protocol.'"
+    },
+    {
+      "QID: 118",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What types of devices are assigned an IP address?","Which devices are assigned an IP address?",
+      "answer": "Every device connected to the internet, including computers, smartphones, routers, and other devices, is assigned an IP address."
+    },
+    {
+      "QID: 119",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is the format of an IP address?","What is the structure of an IP address?",
+      "answer": "An IP address is made up of a series of numbers separated by dots, such as 192.168.1.1."
+    },
+    {
+      "QID: 120",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is the difference between IPv4 and IPv6?","How does IPv6 differ from IPv4?",
+      "answer": "IPv4 is the older protocol and uses 32-bit addresses, which limits the number of possible unique addresses to about 4 billion. IPv6, on the other hand, uses 128-bit addresses, which allows for a virtually unlimited number of unique addresses."
+    },
+    {
+      "QID: 121",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "Who assigns IP addresses to devices?","How IP addresses is assigned to devices?",
+      "answer": "IP addresses are assigned to devices by internet service providers (ISPs)."
+    },
+    {
+      "QID: 122",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is a static IP address?","Tell me about static IP address?",
+      "answer": "A static IP address is an address that stays the same every time a device connects to the internet."
+    },
+    {
+      "QID: 123",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "What is a dynamic IP address?", "Tell me about dynamic IP address?",
+      "answer": "A dynamic IP address is an address that changes each time a device connects to the internet."
+    },
+    {
+      "QID: 124",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "Why are IP addresses essential for internet functions?", "Why are IP addresses important for internet functions?",
+      "answer": "IP addresses are essential for many internet functions, such as sending and receiving data, browsing websites, and connecting to other devices."
+    },
+    {
+      "QID: 125",
+       "entity": "IP address",
+       "method": "Zero-Shot-para"
+        "Prompt": "Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup",
+      "question": "How does an IP address help identify and communicate with devices on a network?","How does an IP address help devices communicate on a network?",
+      "answer": "An IP address uniquely identifies a device on a network and allows it to send and receive data and communicate with other devices."
+    }
 
 
 

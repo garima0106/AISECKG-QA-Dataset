@@ -1,0 +1,26 @@
+
+JSON structure
+
+{
+			"QID": A1,
+            "Entity": ["Session ID"],
+            "Relation": [""]
+            "Prompt": "Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup",
+            "Method": "Zero-Shot-para",
+            "Question": "What is a session ID, and why is it important?",
+            "Answer": "A session ID is a unique identifier assigned to a user during a session with a web server. It is important because it helps maintain state information between multiple requests and responses, such as user authentication status and user-specific information."
+        }
+
+
+"Prompt": 
+"Entity": [],
+"Relation": [],
+"Ontology": [],
+
+
+"Prompt": 
+"Entity": [],
+
+"Relation": [],
+"Ontology": [],
+
