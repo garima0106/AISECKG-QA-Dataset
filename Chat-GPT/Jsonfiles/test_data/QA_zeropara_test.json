@@ -1,0 +1,3710 @@
+[
+  {
+    "QID": "C-3",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sniff Mode.Generate 10 questions with answers based on above writeup. Use JSON format",
+    "Entity": [
+      "Sniff Mode"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does the term 'sniff' refer to in sniff mode?",
+    "Answer": "The term 'sniff' refers to the idea that the network interface is 'sniffing' the traffic that passes by."
+  },
+  {
+    "QID": "C-13",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about communication protocol.Generate 10 questions with answers based on above writeup. Use JSON format",
+    "Entity": [
+      "communication protocol"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What kind of information is governed by communication protocols?",
+    "Answer": "Communication protocols govern the format of data messages, how they are transmitted, what kind of error-checking is used, and how devices can synchronize their communications."
+  },
+  {
+    "QID": "C-23",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about TCP header.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCP header"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of the checksum field in the TCP header?",
+    "Answer": "The checksum field in the TCP header is used to verify the integrity of the packet during transmission."
+  },
+  {
+    "QID": "C-33",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sql Injection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Sql Injection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does SQL Injection occur?",
+    "Answer": "SQL Injection occurs when user input is not properly sanitized or validated before being included in a SQL query, allowing attackers to inject malicious SQL code."
+  },
+  {
+    "QID": "C-43",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about cross side scripting. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cross side scripting"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the impact of XSS attacks?",
+    "Answer": "The impact of XSS attacks can range from a minor nuisance to a significant security risk, depending on the type of vulnerability and the sensitivity of the data at risk."
+  },
+  {
+    "QID": "C-53",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Dos Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Dos Attack"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common types of DoS attacks?",
+    "Answer": "Some common types of DoS attacks include flooding attacks, SYN attacks, and HTTP/HTTPS attacks."
+  },
+  {
+    "QID": "C-63",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Smurf Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Smurf Attack"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What protocol does the Smurf Attack use?",
+    "Answer": "The Smurf Attack uses ICMP (Internet Control Message Protocol) packets."
+  },
+  {
+    "QID": "C-73",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Trojan horses. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Trojan horses"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a Trojan horse spread?",
+    "Answer": "Trojan horses rely on human action, such as downloading and running an infected file, to spread."
+  },
+  {
+    "QID": "C-83",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Packet injection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Packet injection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What kind of payload contents can be injected using packet injection?",
+    "Answer": "Packet injection can send packets with specific payload contents, such as commands, data, or malware."
+  },
+  {
+    "QID": "C-93",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Teardrop attacks.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Teardrop attacks"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What operating systems are vulnerable to Teardrop attacks?",
+    "Answer": "Teardrop attacks were particularly effective against older operating systems such as Windows 95 and Windows NT 3.51, but modern operating systems have implemented countermeasures to prevent Teardrop attacks."
+  },
+  {
+    "QID": "C-103",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Idle scan attacks. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Idle scan attacks"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of using a spoofed IP address in Idle scan attacks?",
+    "Answer": "The purpose of using a spoofed IP address is to mask the attacker's actual IP address and make it difficult to trace the attack back to them."
+  },
+  {
+    "QID": "C-113",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about  backdoor Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "backdoor"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the consequences of a successful backdoor attack?",
+    "Answer": "The consequences of a successful backdoor attack can include theft of sensitive information, further attacks, or use of the system as a launchpad for attacks on other systems."
+  },
+  {
+    "QID": "C-122",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Phishing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Phishing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a phishing attack typically work?",
+    "Answer": "Phishing attacks typically involve sending fraudulent emails or messages that appear to come from a trusted source and contain a link to a fake website or a malicious attachment."
+  },
+  {
+    "QID": "C-132",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about TCP SYN Packet. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCP SYN Packet"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What information is included in a TCP SYN packet?",
+    "Answer": "A TCP SYN packet contains specific information such as the sequence number, source and destination ports, and other TCP header information."
+  },
+  {
+    "QID": "C-142",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about firewall traffic. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "firewall traffic"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of protocols can firewall traffic include?",
+    "Answer": "Firewall traffic can include various types of network protocols, such as TCP, UDP, ICMP, and others."
+  },
+  {
+    "QID": "C-152",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about IP packets. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "IP packets"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are IP packets used for?",
+    "Answer": "IP packets are used to transmit information across different networks and are the basic building blocks of the internet."
+  },
+  {
+    "QID": "C-162",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about tcpdump pcap. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "tcpdump pcap"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who commonly uses tcpdump?",
+    "Answer": "Tcpdump is commonly used by network administrators and security professionals."
+  },
+  {
+    "QID": "C-172",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about configuration files. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "configuration files"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common types of configuration files?",
+    "Answer": "Some common types of configuration files include XML files, JSON files, INI files, YAML files, and properties files."
+  },
+  {
+    "QID": "C-182",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about ICMP error messages. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "ICMP error messages"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some examples of ICMP error messages?",
+    "Answer": "Some examples of ICMP error messages include 'destination unreachable', 'time exceeded', and 'redirect'."
+  },
+  {
+    "QID": "C-192",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about network traffic. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network traffic"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is local traffic?",
+    "Answer": "Local traffic refers to the data that is transmitted within a local network, such as a LAN (Local Area Network)."
+  },
+  {
+    "QID": "C-202",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about system messages. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "system messages"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What forms can system messages take?",
+    "Answer": "System messages can take various forms, including pop-up windows, dialog boxes, log entries, or email notifications."
+  },
+  {
+    "QID": "C-212",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about System Log. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "System Log"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common uses of system logs?",
+    "Answer": "System logs are used for troubleshooting, auditing, and security analysis, as they provide a detailed history of system activity."
+  },
+  {
+    "QID": "C-222",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about dropped packets.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "dropped packets"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What problems can result from dropped packets?",
+    "Answer": "Dropped packets can result in degraded network performance, packet loss, or communication disruptions that can affect application performance and user experience."
+  },
+  {
+    "QID": "C-232",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Encryption. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Encryption"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some encryption algorithms and protocols?",
+    "Answer": "Some encryption algorithms and protocols include Advanced Encryption Standard (AES) and Transport Layer Security (TLS), that use different techniques to encode data and ensure its security."
+  },
+  {
+    "QID": "C-242",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Decryption. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Decryption"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is required for decryption?",
+    "Answer": "Decryption requires the use of a secret key or password that is used to unlock the encryption and return the data to its original form."
+  },
+  {
+    "QID": "C-252",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sha. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Sha"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the different versions of SHA?",
+    "Answer": "There are several different versions of SHA, including SHA-1, SHA-2, and SHA-3."
+  },
+  {
+    "QID": "C-262",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about XOR. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "XOR"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How is XOR used in cryptography?",
+    "Answer": "XOR is used in cryptography to encrypt and decrypt data by combining it with a secret key or password. The XOR operation ensures that the resulting ciphertext is unpredictable and difficult to decipher without the key."
+  },
+  {
+    "QID": "C-272",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Hash functions. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Hash functions"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a hash function work?",
+    "Answer": "A hash function operates by taking in an input, performing a series of mathematical operations on it, and producing a fixed-length output, which is often referred to as a hash or digest."
+  },
+  {
+    "QID": "C-282",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about RPC Null commands. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "RPC Null commands"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some tools used to exploit RPC null sessions?",
+    "Answer": "Some tools used to exploit RPC null sessions include Rpcdump, Rpcclient, and Nbtstat."
+  },
+  {
+    "QID": "C-292",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about host scripts. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "host scripts"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of using host scripts in network scanning?",
+    "Answer": "Host scripts can be used to extend the functionality of network scanners and detect vulnerabilities or misconfigurations that cannot be detected by default scripts."
+  },
+  {
+    "QID": "C-302",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about brute force script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "brute force script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of a brute force script?",
+    "Answer": "The purpose of a brute force script is to automate the process of trying every possible combination of characters in order to find the correct password or solution to a problem."
+  },
+  {
+    "QID": "C-312",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about denial of service script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "dos script",
+      "denial of service script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a DoS script work?",
+    "Answer": "A DoS script works by flooding a target system with a large number of requests or data packets, overwhelming the system's resources and causing it to crash or become unresponsive."
+  },
+  {
+    "QID": "C-322",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about malware script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "malware script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How are malware scripts typically distributed?",
+    "Answer": "Malware scripts are often distributed through malicious websites, email attachments, infected software, or by exploiting vulnerabilities in operating systems or applications."
+  },
+  {
+    "QID": "C-332",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Honeypot. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Honeypot"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the benefits of deploying honeypots?",
+    "Answer": "Honeypots provide threat intelligence, act as an early warning system, aid in intrusion detection, and divert attackers' attention away from critical assets."
+  },
+  {
+    "QID": "C-342",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Risk Assessment. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Risk Assessment"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is risk identification an important step in the risk assessment process?",
+    "Answer": "Risk identification helps in identifying and documenting potential risks that could impact the organization, providing a foundation for further analysis and risk management strategies."
+  },
+  {
+    "QID": "C-352",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Penetration Testing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Penetration Testing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who conducts penetration testing?",
+    "Answer": "Penetration testing is conducted by skilled and authorized testers known as penetration testers or ethical hackers."
+  },
+  {
+    "QID": "C-362",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Port scan. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Port scan"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How are open ports identified during port scanning?",
+    "Answer": "Open ports are identified by analyzing the responses received when sending network packets to specific ports on the target system."
+  },
+  {
+    "QID": "C-372",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Intrusion Detection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Intrusion Detection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a network-based intrusion detection system (NIDS) work?",
+    "Answer": "NIDS monitors network traffic in real-time, examining packets and analyzing network protocols to detect signs of malicious activity."
+  },
+  {
+    "QID": "C-382",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Security Policy. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Security Policy"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What aspects does a security policy typically cover?",
+    "Answer": "A security policy typically covers physical security, information security, access control, incident response, data classification, network security, and acceptable use of technology resources."
+  },
+  {
+    "QID": "C-392",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about packet filtering technique. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "packet filtering"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some of the criteria used in packet filtering?",
+    "Answer": "Criteria used in packet filtering can include IP addresses, port numbers, protocol types, packet flags, and more."
+  },
+  {
+    "QID": "C-402",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about white-box testing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white-box testing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who typically performs white-box testing?",
+    "Answer": "White-box testing is typically performed by software developers or testers who have in-depth knowledge of the system's architecture and implementation."
+  },
+  {
+    "QID": "C-412",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about vulnerability detection techniques. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "vulnerability detection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is Static Application Security Testing (SAST)?",
+    "Answer": "Static Application Security Testing (SAST) is a technique that uses specialized tools to analyze source code or compiled binaries to identify potential vulnerabilities."
+  },
+  {
+    "QID": "C-422",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Malware detections. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Malware detections"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the two main approaches for malware detection?",
+    "Answer": "The two main approaches for malware detection are signature-based detection and behavior-based detection."
+  },
+  {
+    "QID": "C-432",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Bad Config. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Bad Config"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the consequences of bad configuration?",
+    "Answer": "Bad configuration can lead to unauthorized access, data breaches, service disruptions, and other security incidents."
+  },
+  {
+    "QID": "C-442",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Weak Password. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Weak Password"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why are weak passwords a common security risk?",
+    "Answer": "Weak passwords are common security risks because they are easy for attackers to guess or crack using automated tools."
+  },
+  {
+    "QID": "C-452",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about HTTP anomaly. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "HTTP anomaly"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What aspects of HTTP communication can be analyzed to detect anomalies?",
+    "Answer": "Headers, payloads, request/response patterns, traffic volume, and session behavior can be analyzed to detect HTTP anomalies."
+  },
+  {
+    "QID": "C-462",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about security holes.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "security holes"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why do attackers exploit security holes?",
+    "Answer": "Attackers exploit security holes to gain unauthorized access, compromise data, or disrupt system functioning for malicious purposes."
+  },
+  {
+    "QID": "C-472",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about configuration flaws. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "configuration flaws"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How do configuration flaws occur?",
+    "Answer": "Configuration flaws occur when the configuration settings deviate from secure or recommended practices."
+  },
+  {
+    "QID": "C-482",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Common Vulnerabilities and Exposures (CVE). Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Common Vulnerabilities and Exposures (CVE)"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does a CVE entry consist of?",
+    "Answer": "A CVE entry consists of a unique identifier (CVE ID), vulnerability description, potential impact, and any available patches or mitigations."
+  },
+  {
+    "QID": "C-492",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about spoofing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "spoofing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the different forms of spoofing attacks?",
+    "Answer": "Spoofing attacks can occur as IP spoofing, email spoofing, website spoofing, or caller ID spoofing."
+  },
+  {
+    "QID": "C-502",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about buffer overflow exploit. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "buffer overflow exploit"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the consequences of a successful buffer overflow exploit?",
+    "Answer": "The consequences can include remote code execution, privilege escalation, and the ability to launch further attacks."
+  },
+  {
+    "QID": "C-512",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about FTP Anomaly. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "FTP Anomaly"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is detecting FTP anomalies important?",
+    "Answer": "Detecting FTP anomalies helps identify potential security breaches, compromised accounts, or malicious activities that may pose a risk to the FTP server or network."
+  },
+  {
+    "QID": "C-522",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Forging. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Forging"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the different types of forgery?",
+    "Answer": "Forgery can occur at different levels, including network forgery, email forgery, and identity forgery."
+  },
+  {
+    "QID": "C-532",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about browsers. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "browsers"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What protocols do browsers handle?",
+    "Answer": "Browsers handle protocols such as HTTP and HTTPS for retrieving and displaying web content."
+  },
+  {
+    "QID": "C-542",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about user interface. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "user interface"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does user interface design involve?",
+    "Answer": "User interface design involves creating visually appealing and user-friendly interfaces, focusing on elements such as layout, colors, typography, icons, and overall aesthetic appeal."
+  },
+  {
+    "QID": "C-552",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about SSH service. Generate 10 questions with answers based on above writeup.",
+    "Entity": [
+      "SSH service"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does SSH provide security?",
+    "Answer": "SSH employs encryption techniques to ensure the confidentiality and integrity of data transmitted over the network."
+  },
+  {
+    "QID": "C-562",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about logging service. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "logging service"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the benefits of implementing a logging service?",
+    "Answer": "Benefits include monitoring and troubleshooting, security analysis, compliance adherence, and gaining insights into system health and performance."
+  },
+  {
+    "QID": "C-572",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about webapp. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "webapp"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of the front-end in a web application?",
+    "Answer": "The front-end handles the user interface and user experience, presenting content and interacting with users in a browser."
+  },
+  {
+    "QID": "C-582",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about website. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "website"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some purposes of websites?",
+    "Answer": "Websites can serve informational, e-commerce, social networking, blogging, and web application purposes."
+  },
+  {
+    "QID": "C-592",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about IPTables. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "IPTables"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does IPTables work?",
+    "Answer": "IPTables works by analyzing incoming and outgoing network packets and applying filtering rules to determine whether to accept, drop, or forward them."
+  },
+  {
+    "QID": "C-602",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about UDP services. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "UDP services"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common applications that use UDP?",
+    "Answer": "Audio and video streaming, online gaming, DNS lookups, and SNMP operations are common applications that use UDP."
+  },
+  {
+    "QID": "C-612",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about kernel. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "kernel"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does the kernel manage memory?",
+    "Answer": "The kernel allocates and deallocates memory to processes, manages virtual memory, handles memory protection, and ensures efficient memory utilization."
+  },
+  {
+    "QID": "C-622",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about mail programs. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "mail programs"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Can I access multiple email accounts using a mail program?",
+    "Answer": "Yes, mail programs allow you to access and manage multiple email accounts from different providers."
+  },
+  {
+    "QID": "C-632",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about linux box. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "linux box"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What interfaces are available in a Linux box?",
+    "Answer": "Linux provides a command-line interface (CLI) and a graphical user interface (GUI)."
+  },
+  {
+    "QID": "C-642",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about home network. Generate 10 questions with answers based on above writeup. Use JSON format.v",
+    "Entity": [
+      "home network"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How is a home network connected to the internet?",
+    "Answer": "A home network is connected to the internet through an internet service provider (ISP) connection."
+  },
+  {
+    "QID": "C-652",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about public domain.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "public domain"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a work enter the public domain?",
+    "Answer": "Works enter the public domain when their copyright term expires, the creator dedicates them to the public domain, or they fail to meet the criteria for copyright protection."
+  },
+  {
+    "QID": "C-662",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about client gateway server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "client gateway server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What role does a client gateway server play in network communication?",
+    "Answer": "A client gateway server controls and manages the communication between client devices and the external network, ensuring secure and controlled access."
+  },
+  {
+    "QID": "C-672",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about live hosts. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "live hosts"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of devices can be considered live hosts?",
+    "Answer": "Live hosts can include computers, servers, routers, switches, IoT devices, and other network-connected devices."
+  },
+  {
+    "QID": "C-682",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a server differ from a client machine?",
+    "Answer": "Servers are typically more powerful, have more resources, and are designed to handle multiple client requests simultaneously."
+  },
+  {
+    "QID": "C-692",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about client in networking. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "client side",
+      "client in networking"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of services can a client request from a server?",
+    "Answer": "A client can request various types of services, such as accessing files, databases, websites, sending/receiving emails, or performing computations."
+  },
+  {
+    "QID": "C-702",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about remote server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "remote server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of services can remote servers provide?",
+    "Answer": "Remote servers can offer services such as web hosting, email hosting, file storage and sharing, database management, application hosting, and cloud computing resources."
+  },
+  {
+    "QID": "C-712",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about kali linux machine. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "kali linux machine"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What kind of tools are pre-installed in Kali Linux?",
+    "Answer": "Kali Linux comes with a wide range of security tools, including network scanners, vulnerability assessment tools, password crackers, forensic analysis tools, and more."
+  },
+  {
+    "QID": "C-722",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about virtual box. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "virtual box"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are Guest Additions in VirtualBox?",
+    "Answer": "Guest Additions are software packages that enhance the performance and functionality of the guest operating system in VirtualBox."
+  },
+  {
+    "QID": "C-732",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about wireshark. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "wireshark"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does Wireshark allow users to capture and analyze?",
+    "Answer": "Wireshark allows users to capture and analyze network traffic in real-time."
+  },
+  {
+    "QID": "C-742",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about burp suite. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "burp suite"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the main components of Burp Suite?",
+    "Answer": "The main components of Burp Suite include Proxy, Scanner, Spider, Intruder, Repeater, Sequencer, and Decoder."
+  },
+  {
+    "QID": "C-752",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about snort. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "snort"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does Snort work?",
+    "Answer": "Snort examines network packets in real-time, compares them against predefined rules, and generates alerts when a match is found."
+  },
+  {
+    "QID": "C-762",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about port scanner. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "port scanner"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a port scanner work?",
+    "Answer": "A port scanner systematically probes a range of ports on target IP addresses to determine which ports are open, closed, or filtered."
+  },
+  {
+    "QID": "C-772",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about packet decoder. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "packet decoder"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can a packet decoder help with?",
+    "Answer": "A packet decoder can help analyze network traffic, troubleshoot network issues, and analyze protocols."
+  },
+  {
+    "QID": "C-782",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about firewall. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "firewall"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the different types of firewalls?",
+    "Answer": "Firewalls can be implemented as software or hardware devices, and they can operate at the network, transport, or application level."
+  },
+  {
+    "QID": "C-792",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Nmap. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Nmap"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does Nmap determine hosts on a network?",
+    "Answer": "Nmap uses raw IP packets to determine active hosts by sending specific network probes and analyzing the responses."
+  },
+  {
+    "QID": "C-802",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Intrusion Detection Systems (IDS).Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Intrusion Detection Systems (IDS)"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does an IDS detect attacks?",
+    "Answer": "IDS can detect attacks through signature-based detection by comparing network traffic against a database of known attack signatures, or through anomaly-based detection by identifying deviations from normal network behavior."
+  },
+  {
+    "QID": "C-812",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Metasploit framework.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Metasploit framework"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Is the Metasploit Framework customizable and extensible?",
+    "Answer": "Yes, the Metasploit Framework has a modular architecture that allows users to customize and extend its capabilities."
+  },
+  {
+    "QID": "C-822",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about TCPdump. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCPdump"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does TCPdump capture network traffic?",
+    "Answer": "TCPdump captures network traffic by capturing packets transmitted over the network."
+  },
+  {
+    "QID": "C-832",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about users in cybersecurity. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "users in cybersecurity",
+      "users"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What risks are associated with users in cybersecurity?",
+    "Answer": "Users can unintentionally introduce vulnerabilities or become insider threats by misusing their privileges."
+  },
+  {
+    "QID": "C-842",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about the role of employee in cybersecurity. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "employee in cybersecurity",
+      "employee"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How do employees contribute to password security?",
+    "Answer": "Employees should create strong passwords, avoid password sharing, and regularly update their passwords to help protect against unauthorized access and data breaches."
+  },
+  {
+    "QID": "C-852",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "hacker"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are black hat hackers?",
+    "Answer": "Black hat hackers engage in illegal and malicious activities, such as stealing data or conducting cyber-attacks for personal gain or malicious intent."
+  },
+  {
+    "QID": "C-862",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about black hat. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "black hat"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How do black hat hackers gain unauthorized access to systems?",
+    "Answer": "Black hat hackers exploit vulnerabilities in systems, networks, or applications, using techniques like social engineering, malware, phishing, or brute force attacks."
+  },
+  {
+    "QID": "C-872",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about cybercriminals. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cybercriminals"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the motivations of cybercriminals?",
+    "Answer": "The motivations of cybercriminals can range from financial gain and data theft to political or ideological agendas."
+  },
+  {
+    "QID": "C-882",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about attack host. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "attack host"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of activities can be carried out using an attack host?",
+    "Answer": "An attack host can be used for unauthorized access, data theft, service disruption, malware spreading, and gaining control over targeted systems."
+  },
+  {
+    "QID": "C-892",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about White Hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "White Hacker"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What motivates white hat hackers?",
+    "Answer": "White hat hackers are motivated by improving cybersecurity and promoting a safer digital environment."
+  },
+  {
+    "QID": "C-902",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Security Engineer. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Security Engineer"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the importance of a security engineer?",
+    "Answer": "A security engineer plays a crucial role in ensuring the confidentiality, integrity, and availability of information and technology resources."
+  },
+  {
+    "QID": "C-912",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Ethical Hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Ethical Hacker."
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the objective of an ethical hacker?",
+    "Answer": "The primary objective of an ethical hacker is to uncover security weaknesses and provide recommendations for mitigating vulnerabilities."
+  },
+  {
+    "QID": "C-922",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about teamDefense. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "teamDefense"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who is involved in TeamDefense?",
+    "Answer": "TeamDefense involves various teams such as security operations, incident response, network administrators, and system administrators."
+  },
+  {
+    "QID": "C-932",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about network administrators.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network administrators"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What skills and knowledge do network administrators possess?",
+    "Answer": "Network administrators have a deep understanding of network protocols, technologies, and best practices."
+  },
+  {
+    "QID": "C-942",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about white hats. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white hats"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What distinguishes white hats from black hats?",
+    "Answer": "White hats adhere to legal and ethical guidelines while conducting security assessments, unlike black hats who engage in malicious activities."
+  },
+  {
+    "QID": "C-952",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about cyber defenders. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cyber defenders"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What strategies do cyber defenders use?",
+    "Answer": "Cyber defenders employ various strategies, tools, and techniques to prevent, detect, and respond to security incidents."
+  },
+  {
+    "QID": "C-962",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about pen tester. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "pen tester"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What techniques do pen testers use?",
+    "Answer": "Pen testers use a variety of techniques such as network scanning, social engineering, password cracking, and code analysis to identify vulnerabilities in systems."
+  },
+  {
+    "QID": "C-972",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about network operators. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network operators"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who do network operators collaborate with?",
+    "Answer": "Network operators collaborate with other IT teams, such as system administrators, security analysts, and help desk personnel."
+  },
+  {
+    "QID": "C-982",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about white-box tester. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white-box tester"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What kind of information does a white-box tester have access to?",
+    "Answer": "A white-box tester has access to the source code, architecture diagrams, design documents, and other relevant information about the system under test."
+  },
+  {
+    "QID": "C-992",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup\",",
+    "Entity": "Session ID",
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a cookie, and how is it related to session ID?",
+    "Answer": "A cookie is a small piece of data that is stored in a user's browser. It can contain information such as a session ID, which is used by the server to identify the user's session."
+  },
+  {
+    "QID": "C-1002",
+    "Method": "Zero-shot",
+    "Prompt": "\"Generate 10 questions with short answers based on above writeup on cookies.\",",
+    "Entity": [
+      "Cookies"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Can cookies track user behavior across different websites?",
+    "Answer": "Yes, cookies can potentially track user behavior across different websites."
+  },
+  {
+    "QID": "C-1010",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup\",",
+    "Entity": [
+      "Cookies"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What happens when a packet reaches a router?",
+    "Answer": "The router examines the packet's destination IP address and consults its routing table to determine the next hop in the network."
+  },
+  {
+    "QID": "C-1020",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup\",",
+    "Entity": "IP address",
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of devices are assigned an IP address?,Which devices are assigned an IP address?",
+    "Answer": "Every device connected to the internet, including computers, smartphones, routers, and other devices, is assigned an IP address."
+  },
+  {
+    "QID": "C-4",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sniff Mode.Generate 10 questions with answers based on above writeup. Use JSON format",
+    "Entity": [
+      "Sniff Mode"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is packet capture software?",
+    "Answer": "Packet capture software allows the user to capture and analyze the traffic that is being received by the network interface in sniff mode."
+  },
+  {
+    "QID": "C-14",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about communication protocol.Generate 10 questions with answers based on above writeup. Use JSON format",
+    "Entity": [
+      "communication protocol"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is TCP/IP?",
+    "Answer": "TCP/IP is a communication protocol used to transmit data over the internet."
+  },
+  {
+    "QID": "C-24",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about TCP header.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCP header"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some of the optional fields that can be included in the TCP header?",
+    "Answer": "Optional fields that can be included in the TCP header include data such as timestamps, selective acknowledgements, and urgent data pointers."
+  },
+  {
+    "QID": "C-34",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sql Injection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Sql Injection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can attackers achieve by injecting malicious SQL code?",
+    "Answer": "Attackers can achieve arbitrary execution of SQL commands by injecting malicious SQL code into a vulnerable web application."
+  },
+  {
+    "QID": "C-44",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about cross side scripting. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cross side scripting"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the three types of XSS attacks?",
+    "Answer": "The three types of XSS attacks are stored XSS, reflected XSS, and DOM-based XSS."
+  },
+  {
+    "QID": "C-54",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Dos Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Dos Attack"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a flooding attack work?",
+    "Answer": "A flooding attack works by sending a high volume of traffic to a targeted system, overwhelming its capacity and causing it to become unavailable to legitimate users."
+  },
+  {
+    "QID": "C-64",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Smurf Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Smurf Attack"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does the Smurf Attack do to a network?",
+    "Answer": "It sends a large number of ICMP packets to a network's broadcast address, making it difficult or impossible for legitimate network traffic to get through."
+  },
+  {
+    "QID": "C-74",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Trojan horses. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Trojan horses"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What kind of actions can a Trojan horse perform?",
+    "Answer": "A Trojan horse can perform harmful actions, such as stealing personal information or giving an attacker remote control over the infected computer."
+  },
+  {
+    "QID": "C-84",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Packet injection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Packet injection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who can use packet injection?",
+    "Answer": "Packet injection can be used by both attackers and network administrators, depending on their goals and intentions."
+  },
+  {
+    "QID": "C-94",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Teardrop attacks.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Teardrop attacks"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of a Teardrop attack?",
+    "Answer": "The purpose of a Teardrop attack is to disrupt the target system's normal functioning and render it unavailable or unresponsive to legitimate users or services."
+  },
+  {
+    "QID": "C-104",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Idle scan attacks. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Idle scan attacks"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does an Idle scan attack determine whether a port is open or closed?",
+    "Answer": "An Idle scan attack sends two probes to the target system, with different spoofed IP addresses, and compares the IP ID field of the idle device in the responses. If the IP ID field has increased, it indicates the port being scanned is open. If it has not increased, it means the port is closed."
+  },
+  {
+    "QID": "C-114",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about  backdoor Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "backdoor"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can backdoor attacks be difficult to detect?",
+    "Answer": "Backdoor attacks can be difficult to detect as they often exploit vulnerabilities in legitimate software and use legitimate login credentials."
+  },
+  {
+    "QID": "C-123",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Phishing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Phishing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some indicators of a phishing email or message?",
+    "Answer": "Indicators of a phishing email or message can include misspelled words or grammatical errors, suspicious links or attachments, and requests for sensitive information."
+  },
+  {
+    "QID": "C-133",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about TCP SYN Packet. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCP SYN Packet"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the three-way handshake process?",
+    "Answer": "The three-way handshake process is the method used by TCP to establish a connection between two devices over a network."
+  },
+  {
+    "QID": "C-143",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about firewall traffic. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "firewall traffic"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of network traffic can firewall traffic include?",
+    "Answer": "Firewall traffic can include different types of network traffic, such as HTTP, FTP, SSH, and others."
+  },
+  {
+    "QID": "C-153",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about IP packets. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "IP packets"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of network protocols can IP packets be sent over?",
+    "Answer": "IP packets can be sent over various types of network protocols, including Ethernet, Wi-Fi, and cellular networks."
+  },
+  {
+    "QID": "C-163",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about tcpdump pcap. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "tcpdump pcap"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can tcpdump be used for?",
+    "Answer": "Tcpdump can be used to diagnose network issues, troubleshoot connectivity problems, and investigate security incidents."
+  },
+  {
+    "QID": "C-173",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about configuration files. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "configuration files"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How are configuration files used in software development?",
+    "Answer": "Configuration files are often used in software development to store settings that are used to configure the behavior of the software during runtime."
+  },
+  {
+    "QID": "C-183",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about ICMP error messages. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "ICMP error messages"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How are ICMP error messages generated?",
+    "Answer": "ICMP error messages are generated by network devices such as routers, switches, and firewalls. They are sent to the source IP address of the packet that caused the error."
+  },
+  {
+    "QID": "C-193",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about network traffic. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network traffic"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is internet traffic?",
+    "Answer": "Internet traffic refers to the data that is transmitted over the internet between different networks or devices."
+  },
+  {
+    "QID": "C-203",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about system messages. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "system messages"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What events can trigger system messages?",
+    "Answer": "System messages can be triggered by various events, such as system errors, software updates, security incidents, or user actions."
+  },
+  {
+    "QID": "C-213",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about System Log. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "System Log"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can system logs be viewed?",
+    "Answer": "System logs can be viewed in real-time or stored in a file for later analysis."
+  },
+  {
+    "QID": "C-223",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about dropped packets.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "dropped packets"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is monitoring dropped packets important?",
+    "Answer": "Monitoring dropped packets is important because it can help identify and resolve issues that affect network performance and reliability, as well as provide insights into network usage and capacity planning."
+  },
+  {
+    "QID": "C-233",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Encryption. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Encryption"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Where is encryption widely used?",
+    "Answer": "Encryption is widely used in various industries, including finance, healthcare, and government, to protect sensitive information and prevent unauthorized access."
+  },
+  {
+    "QID": "C-243",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Decryption. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Decryption"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is decryption important?",
+    "Answer": "Decryption helps to protect sensitive data from being intercepted or accessed by unauthorized parties, while still allowing authorized individuals to access and use the data as needed."
+  },
+  {
+    "QID": "C-253",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sha. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Sha"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the difference between SHA-1 and SHA-2?",
+    "Answer": "SHA-1 and SHA-2 are both cryptographic hash functions, but SHA-2 is considered to be more secure and less vulnerable to attacks than SHA-1."
+  },
+  {
+    "QID": "C-263",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about XOR. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "XOR"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the bitwise XOR operator?",
+    "Answer": "The bitwise XOR operator compares two binary values bit by bit, and returns a new value with a 1 in each bit position where the corresponding bits in the input values are different, and a 0 where they are the same."
+  },
+  {
+    "QID": "C-273",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Hash functions. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Hash functions"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some properties of a good hash function?",
+    "Answer": "Some properties of a good hash function include collision resistance, pre-image resistance, and avalanche effect."
+  },
+  {
+    "QID": "C-283",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about RPC Null commands. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "RPC Null commands"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some of the risks associated with RPC null sessions?",
+    "Answer": "Some risks associated with RPC null sessions include information disclosure, denial of service attacks, and remote code execution."
+  },
+  {
+    "QID": "C-293",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about host scripts. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "host scripts"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What programming languages are supported for writing host scripts?",
+    "Answer": "Host scripts can be written in various programming languages, including Lua, Python, and JavaScript, depending on the network scanner used."
+  },
+  {
+    "QID": "C-303",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about brute force script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "brute force script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common types of brute force attacks?",
+    "Answer": "Some common types of brute force attacks include password cracking, key space enumeration, and cryptographic attacks."
+  },
+  {
+    "QID": "C-313",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about denial of service script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "dos script",
+      "denial of service script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common types of DoS attacks?",
+    "Answer": "Some common types of DoS attacks include SYN floods, UDP floods, ICMP floods, and HTTP floods."
+  },
+  {
+    "QID": "C-323",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about malware script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "malware script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a virus?",
+    "Answer": "A virus is a type of malware script that attaches itself to legitimate files and replicates by infecting other files, causing damage and spreading across systems."
+  },
+  {
+    "QID": "C-333",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Honeypot. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Honeypot"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the difference between high-interaction and low-interaction honeypots?",
+    "Answer": "High-interaction honeypots closely simulate real systems and allow extensive interaction, while low-interaction honeypots offer limited services and easier deployment."
+  },
+  {
+    "QID": "C-343",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Risk Assessment. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Risk Assessment"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of risk analysis in risk assessment?",
+    "Answer": "Risk analysis involves understanding the characteristics, potential consequences, and likelihood of identified risks. It helps prioritize risks based on their significance and the organization's tolerance for risk."
+  },
+  {
+    "QID": "C-353",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Penetration Testing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Penetration Testing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the process involved in penetration testing?",
+    "Answer": "The process of penetration testing typically includes planning and reconnaissance, scanning, exploitation, post-exploitation, and reporting."
+  },
+  {
+    "QID": "C-363",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Port scan. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Port scan"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the common types of port scans?",
+    "Answer": "Common types of port scans include TCP Connect Scan, SYN/Stealth Scan, and UDP Scan."
+  },
+  {
+    "QID": "C-373",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Intrusion Detection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Intrusion Detection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does a host-based intrusion detection system (HIDS) monitor?",
+    "Answer": "HIDS monitors the activities and log files of individual hosts or servers, analyzing system calls, file integrity, and other host-specific data."
+  },
+  {
+    "QID": "C-383",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Security Policy. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Security Policy"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of a security policy?",
+    "Answer": "The purpose of a security policy is to provide guidelines and expectations, promote security-conscious behavior, and protect the confidentiality, integrity, and availability of assets."
+  },
+  {
+    "QID": "C-393",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about packet filtering technique. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "packet filtering"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How are packet filtering rules defined?",
+    "Answer": "Packet filtering rules are defined by network administrators or security professionals based on specific criteria and requirements."
+  },
+  {
+    "QID": "C-403",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about white-box testing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white-box testing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common techniques used in white-box testing?",
+    "Answer": "Some common techniques used in white-box testing include statement coverage, branch coverage, path coverage, condition coverage, and mutation testing."
+  },
+  {
+    "QID": "C-413",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about vulnerability detection techniques. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "vulnerability detection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is Dynamic Application Security Testing (DAST)?",
+    "Answer": "Dynamic Application Security Testing (DAST) is a technique that involves testing an application while it is running to simulate real-world attacks and identify vulnerabilities."
+  },
+  {
+    "QID": "C-423",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Malware detections. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Malware detections"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is signature-based detection?",
+    "Answer": "Signature-based detection involves comparing files or code against a database of known malware signatures."
+  },
+  {
+    "QID": "C-433",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Bad Config. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Bad Config"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why do attackers target misconfigured systems?",
+    "Answer": "Attackers target misconfigured systems because they are relatively easier to exploit compared to systems with proper configurations."
+  },
+  {
+    "QID": "C-443",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Weak Password. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Weak Password"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What makes a password weak?",
+    "Answer": "A password is considered weak if it lacks complexity, is too short, or is easily guessable."
+  },
+  {
+    "QID": "C-453",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about HTTP anomaly. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "HTTP anomaly"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some examples of HTTP anomalies?",
+    "Answer": "Examples include unusual User-Agent strings, non-standard HTTP methods, unexpected status codes, excessive requests, abnormal traffic patterns, unauthorized access attempts, protocol violations, and content-based anomalies."
+  },
+  {
+    "QID": "C-463",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about security holes.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "security holes"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a buffer overflow?",
+    "Answer": "A buffer overflow is a type of security hole where a program writes more data into a buffer than it can hold, leading to memory corruption and potential code execution."
+  },
+  {
+    "QID": "C-473",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about configuration flaws. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "configuration flaws"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can configuration flaws expose systems to?",
+    "Answer": "Configuration flaws can expose systems to potential exploitation by attackers."
+  },
+  {
+    "QID": "C-483",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Common Vulnerabilities and Exposures (CVE). Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Common Vulnerabilities and Exposures (CVE)"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who manages and maintains the CVE database?",
+    "Answer": "The CVE database is managed and maintained by the MITRE Corporation, a non-profit organization funded by the US government."
+  },
+  {
+    "QID": "C-493",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about spoofing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "spoofing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the potential risks of spoofing attacks?",
+    "Answer": "Spoofing attacks can result in unauthorized access to data, financial loss, reputational damage, and compromised system integrity."
+  },
+  {
+    "QID": "C-503",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about buffer overflow exploit. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "buffer overflow exploit"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Which types of applications are commonly vulnerable to buffer overflow exploits?",
+    "Answer": "Applications that do not properly validate input or have inadequate bounds checking mechanisms are often vulnerable to buffer overflow exploits."
+  },
+  {
+    "QID": "C-513",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about FTP Anomaly. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "FTP Anomaly"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can FTP anomalies be detected?",
+    "Answer": "FTP anomalies can be detected by analyzing FTP logs, monitoring network traffic, and employing anomaly detection algorithms that compare observed behavior against predefined thresholds or statistical models."
+  },
+  {
+    "QID": "C-523",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Forging. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Forging"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How do attackers carry out forging attacks?",
+    "Answer": "Attackers employ methods like IP spoofing, email spoofing, or identity theft to carry out forging attacks."
+  },
+  {
+    "QID": "C-533",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about browsers. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "browsers"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some features of browsers?",
+    "Answer": "Browsers offer features like bookmarks or favorites, tabbed browsing, and history tracking."
+  },
+  {
+    "QID": "C-543",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about user interface. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "user interface"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the goals of user interface design?",
+    "Answer": "The goals of user interface design are to create visually pleasing and engaging interfaces, enhance usability, and facilitate user interactions."
+  },
+  {
+    "QID": "C-553",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about SSH service. Generate 10 questions with answers based on above writeup.",
+    "Entity": [
+      "SSH service"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the default port for SSH?",
+    "Answer": "The default port for SSH is 22."
+  },
+  {
+    "QID": "C-563",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about logging service. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "logging service"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a logging service help with security?",
+    "Answer": "A logging service allows security teams to detect and investigate security incidents, identify patterns of malicious activity, and generate alerts."
+  },
+  {
+    "QID": "C-573",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about webapp. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "webapp"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of the back-end in a web application?",
+    "Answer": "The back-end handles the core logic and data processing, responding to user requests, and generating dynamic content."
+  },
+  {
+    "QID": "C-583",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about website. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "website"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the importance of website security?",
+    "Answer": "Website security is crucial to protect user data and prevent unauthorized access."
+  },
+  {
+    "QID": "C-593",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about IPTables. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "IPTables"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common use cases for IPTables?",
+    "Answer": "IPTables is commonly used for network security, setting up firewalls, implementing network address translation (NAT), and traffic shaping."
+  },
+  {
+    "QID": "C-603",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about UDP services. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "UDP services"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is UDP preferred for real-time applications?",
+    "Answer": "UDP is preferred for real-time applications because of its low latency and reduced overhead compared to TCP."
+  },
+  {
+    "QID": "C-613",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about kernel. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "kernel"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is process scheduling, and what role does the kernel play in it?",
+    "Answer": "Process scheduling is the method by which the kernel allocates processor time to different processes. The kernel determines the order and priority of process execution."
+  },
+  {
+    "QID": "C-623",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about mail programs. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "mail programs"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Do mail programs support offline access to emails?",
+    "Answer": "Yes, many mail programs offer the option to store emails locally, allowing you to access them even without an internet connection."
+  },
+  {
+    "QID": "C-633",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about linux box. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "linux box"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can Linux boxes be used for?",
+    "Answer": "Linux boxes can be used for various purposes, including servers, desktops, embedded systems, and mobile devices."
+  },
+  {
+    "QID": "C-643",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about home network. Generate 10 questions with answers based on above writeup. Use JSON format.v",
+    "Entity": [
+      "home network"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of a router in a home network?",
+    "Answer": "A router serves as the central hub in a home network, managing network traffic, assigning IP addresses, and enabling communication between devices."
+  },
+  {
+    "QID": "C-653",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about public domain.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "public domain"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Can I freely use and modify works in the public domain?",
+    "Answer": "Yes, works in the public domain can be used, copied, modified, and distributed without the need for permission or payment."
+  },
+  {
+    "QID": "C-663",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about client gateway server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "client gateway server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common features of client gateway servers?",
+    "Answer": "Common features of client gateway servers include multiple network interfaces, network policy enforcement, and security measures."
+  },
+  {
+    "QID": "C-673",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about live hosts. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "live hosts"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What role do live hosts play in a network?",
+    "Answer": "Live hosts enable communication and data transfer within a network."
+  },
+  {
+    "QID": "C-683",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common types of servers?",
+    "Answer": "Common types of servers include web servers, file servers, database servers, email servers, and application servers."
+  },
+  {
+    "QID": "C-693",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about client in networking. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "client side",
+      "client in networking"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Which communication protocols are commonly used by clients to interact with servers?",
+    "Answer": "Clients use specific communication protocols, such as HTTP for web browsing, FTP for file transfers, SMTP for sending emails, or POP3 for retrieving emails, to communicate with servers over a network."
+  },
+  {
+    "QID": "C-703",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about remote server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "remote server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the key features of remote servers?",
+    "Answer": "Remote servers are designed for accessibility from anywhere, offer high reliability and uptime, emphasize security measures, allow scalability to accommodate growing demands, and come in various types depending on specific needs."
+  },
+  {
+    "QID": "C-713",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about kali linux machine. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "kali linux machine"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How customizable is Kali Linux?",
+    "Answer": "Kali Linux offers a high level of customization, supporting different desktop environments and allowing users to configure the system and install additional tools as needed."
+  },
+  {
+    "QID": "C-723",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about virtual box. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "virtual box"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of taking snapshots in VirtualBox?",
+    "Answer": "Snapshots in VirtualBox allow users to capture the entire state of a virtual machine at a specific point in time, and revert back to that state if needed."
+  },
+  {
+    "QID": "C-733",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about wireshark. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "wireshark"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of protocols does Wireshark support?",
+    "Answer": "Wireshark supports a wide range of protocols, including common protocols like HTTP, TCP, and DNS, as well as specialized protocols used in various industries."
+  },
+  {
+    "QID": "C-743",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about burp suite. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "burp suite"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of the Proxy module in Burp Suite?",
+    "Answer": "The Proxy module allows users to intercept and modify web traffic between the client and the target application for manual testing and parameter manipulation."
+  },
+  {
+    "QID": "C-753",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about snort. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "snort"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of behavior can Snort detect?",
+    "Answer": "Snort can detect various types of suspicious or malicious behavior on computer networks."
+  },
+  {
+    "QID": "C-763",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about port scanner. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "port scanner"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What information can a port scanner provide?",
+    "Answer": "A port scanner can provide information about which services or applications are running on a particular system by identifying open ports."
+  },
+  {
+    "QID": "C-773",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about packet decoder. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "packet decoder"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does a packet decoder capture network packets?",
+    "Answer": "A packet decoder captures network packets either from a network interface or a packet capture file."
+  },
+  {
+    "QID": "C-783",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about firewall. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "firewall"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is packet filtering?",
+    "Answer": "Packet filtering is a firewall technique that examines individual packets of data based on specific criteria and allows or blocks them accordingly."
+  },
+  {
+    "QID": "C-793",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Nmap. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Nmap"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What types of scans can Nmap perform?",
+    "Answer": "Nmap supports various scan types, including TCP connect scans, SYN scans, UDP scans, and ICMP scans."
+  },
+  {
+    "QID": "C-803",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Intrusion Detection Systems (IDS).Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Intrusion Detection Systems (IDS)"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What happens when an IDS detects suspicious activity?",
+    "Answer": "When an IDS detects suspicious activity, it generates alerts or notifications for further investigation and response."
+  },
+  {
+    "QID": "C-813",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Metasploit framework.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Metasploit framework"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What modules are included in the Metasploit Framework?",
+    "Answer": "The Metasploit Framework includes exploits, payloads, auxiliary modules, and post-exploitation modules."
+  },
+  {
+    "QID": "C-823",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about TCPdump. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCPdump"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the key features of TCPdump?",
+    "Answer": "TCPdump's key features include packet capture, filtering, display options, protocol support, packet analysis, packet logging, output customization, and a scriptable interface."
+  },
+  {
+    "QID": "C-833",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about users in cybersecurity. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "users in cybersecurity",
+      "users"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can users contribute to cybersecurity?",
+    "Answer": "Users can contribute to cybersecurity by practicing good security hygiene, being vigilant against potential threats, and participating in security awareness and training programs."
+  },
+  {
+    "QID": "C-843",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about the role of employee in cybersecurity. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "employee in cybersecurity",
+      "employee"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What should employees do if they notice suspicious activities or potential security breaches?",
+    "Answer": "Employees should promptly report any suspicious activities or security incidents to the designated personnel or IT department for investigation and appropriate action."
+  },
+  {
+    "QID": "C-853",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "hacker"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who are grey hat hackers?",
+    "Answer": "Grey hat hackers fall between black hat and white hat hackers. They may discover vulnerabilities in systems without authorization but disclose them to the affected organization."
+  },
+  {
+    "QID": "C-863",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about black hat. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "black hat"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some examples of malicious activities conducted by black hat hackers?",
+    "Answer": "Examples of malicious activities by black hat hackers include stealing sensitive data, launching ransomware attacks, conducting DDoS attacks, defacing websites, or spreading malware."
+  },
+  {
+    "QID": "C-873",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about cybercriminals. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cybercriminals"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How do cybercriminals target their victims?",
+    "Answer": "Cybercriminals often target individuals, businesses, organizations, and governments."
+  },
+  {
+    "QID": "C-883",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about attack host. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "attack host"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How are attack hosts typically obtained?",
+    "Answer": "Attack hosts are either compromised machines or intentionally set up by attackers."
+  },
+  {
+    "QID": "C-893",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about White Hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "White Hacker"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How do white hat hackers find vulnerabilities?",
+    "Answer": "White hat hackers use techniques like penetration testing and network scanning to identify vulnerabilities."
+  },
+  {
+    "QID": "C-903",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Security Engineer. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Security Engineer"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who does a security engineer collaborate with?",
+    "Answer": "A security engineer collaborates with other IT teams and stakeholders to assess risks, develop security solutions, and implement best practices."
+  },
+  {
+    "QID": "C-913",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Ethical Hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Ethical Hacker."
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What techniques do ethical hackers use?",
+    "Answer": "Ethical hackers use techniques such as penetration testing, vulnerability scanning, and security assessments to identify weaknesses in systems and networks."
+  },
+  {
+    "QID": "C-923",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about teamDefense. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "teamDefense"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the goal of TeamDefense?",
+    "Answer": "The goal of TeamDefense is to create a comprehensive and robust defense mechanism that can effectively mitigate risks and minimize the impact of cyber threats."
+  },
+  {
+    "QID": "C-933",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about network administrators.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network administrators"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What tasks do network administrators perform in terms of network configuration?",
+    "Answer": "Network administrators configure routers, switches, firewalls, and other network devices to ensure proper network connectivity and data transmission."
+  },
+  {
+    "QID": "C-943",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about white hats. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white hats"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What activities do white hats perform?",
+    "Answer": "White hats perform activities such as penetration testing, vulnerability assessments, code reviews, and social engineering tests to assess system security."
+  },
+  {
+    "QID": "C-953",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about cyber defenders. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cyber defenders"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the focus of cyber defenders?",
+    "Answer": "The focus of cyber defenders is to ensure the confidentiality, integrity, and availability of information and systems."
+  },
+  {
+    "QID": "C-963",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about pen tester. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "pen tester"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is pen testing important?",
+    "Answer": "Pen testing helps identify weaknesses before malicious hackers can exploit them, assess security response, and ensure compliance with security standards."
+  },
+  {
+    "QID": "C-973",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about network operators. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network operators"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of network operators in network planning and design?",
+    "Answer": "Network operators participate in network planning and design activities, working with network architects or engineers to deploy new infrastructure or upgrade existing components."
+  },
+  {
+    "QID": "C-983",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about white-box tester. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white-box tester"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of white-box testing?",
+    "Answer": "The purpose of white-box testing is to uncover security flaws that might be missed during other testing approaches."
+  },
+  {
+    "QID": "C-993",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup\",",
+    "Entity": "Session ID",
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can session IDs be used to maintain user authentication status?",
+    "Answer": "When a user logs into a website, a session ID can be generated and used to maintain their authentication status throughout their session. The server can check the session ID to determine if the user is still authenticated."
+  },
+  {
+    "QID": "C-1003",
+    "Method": "Zero-shot",
+    "Prompt": "\"Generate 10 questions with short answers based on above writeup on cookies.\",",
+    "Entity": [
+      "Cookies"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some potential privacy concerns related to cookies?",
+    "Answer": "Some users may be concerned about cookies potentially tracking their behavior across different websites."
+  },
+  {
+    "QID": "C-1011",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup\",",
+    "Entity": [
+      "Cookies"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a routing table?",
+    "Answer": "A routing table contains information about the network topology and the paths that packets can take to reach their destination."
+  },
+  {
+    "QID": "C-1021",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup\",",
+    "Entity": "IP address",
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the format of an IP address?,What is the structure of an IP address?",
+    "Answer": "An IP address is made up of a series of numbers separated by dots, such as 192.168.1.1."
+  },
+  {
+    "QID": "C-5",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sniff Mode.Generate 10 questions with answers based on above writeup. Use JSON format",
+    "Entity": [
+      "Sniff Mode"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What kind of network traffic is captured in sniff mode?",
+    "Answer": "All network traffic, regardless of its destination, is captured in sniff mode."
+  },
+  {
+    "QID": "C-15",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about communication protocol.Generate 10 questions with answers based on above writeup. Use JSON format",
+    "Entity": [
+      "communication protocol"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is HTTP?",
+    "Answer": "HTTP is a communication protocol used for web browsing."
+  },
+  {
+    "QID": "C-25",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about TCP header.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCP header"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the minimum size of a TCP header?",
+    "Answer": "The minimum size of a TCP header is 20 bytes."
+  },
+  {
+    "QID": "C-35",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sql Injection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Sql Injection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can SQL Injection attacks be prevented?",
+    "Answer": "SQL Injection attacks can be prevented by implementing secure coding practices, such as using parameterized queries and prepared statements, validating and sanitizing user input, and restricting database privileges."
+  },
+  {
+    "QID": "C-45",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about cross side scripting. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cross side scripting"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is stored XSS?",
+    "Answer": "Stored XSS is a type of XSS attack where the malicious code is stored in the web application's database and executed whenever the user requests the page containing the code."
+  },
+  {
+    "QID": "C-55",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Dos Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Dos Attack"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a SYN attack?",
+    "Answer": "A SYN (synchronization) attack is a type of DoS attack that exploits the way in which a TCP connection is established between two devices."
+  },
+  {
+    "QID": "C-65",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Smurf Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Smurf Attack"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does the Smurf Attack work?",
+    "Answer": "An attacker spoofs the source address of an ICMP packet to make it appear as though it is coming from the victim's IP address, and then sends this packet to the broadcast address of the target network, causing all hosts on the network to respond with an ICMP packet to the victim's IP address."
+  },
+  {
+    "QID": "C-75",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Trojan horses. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Trojan horses"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Do Trojan horses replicate themselves?",
+    "Answer": "No, unlike viruses or worms, Trojan horses do not replicate themselves."
+  },
+  {
+    "QID": "C-85",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Packet injection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Packet injection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common packet injection tools?",
+    "Answer": "Some common packet injection tools include Scapy, Ettercap, and Cain and Abel."
+  },
+  {
+    "QID": "C-95",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Teardrop attacks.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Teardrop attacks"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the symptoms of a Teardrop attack?",
+    "Answer": "The symptoms of a Teardrop attack can vary depending on the target system, but they can include crashes, freezes, slow response times, or network connectivity issues."
+  },
+  {
+    "QID": "C-105",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Idle scan attacks. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Idle scan attacks"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why are Idle scan attacks difficult to detect?",
+    "Answer": "Idle scan attacks are difficult to detect because they do not generate traffic from the attacker's actual IP address, making it difficult to trace the attack back to the attacker."
+  },
+  {
+    "QID": "C-115",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about  backdoor Attack. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "backdoor"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can be done to prevent backdoor attacks?",
+    "Answer": "To prevent backdoor attacks, it is important to keep software up to date with the latest security patches, use strong passwords and two-factor authentication, and regularly monitor system logs for suspicious activity. Additionally, implementing intrusion detection and prevention systems can help to detect and prevent backdoor attacks before they cause significant damage."
+  },
+  {
+    "QID": "C-124",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Phishing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Phishing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some ways to protect against phishing attacks?",
+    "Answer": "Ways to protect against phishing attacks include being cautious when clicking on links or downloading attachments from unknown sources, verifying the legitimacy of emails or messages before providing any information, and using anti-phishing software or browser extensions."
+  },
+  {
+    "QID": "C-134",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about TCP SYN Packet. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCP SYN Packet"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a SYN-ACK packet?",
+    "Answer": "A SYN-ACK packet is the response sent by the receiving device to the initiating device after receiving a TCP SYN packet to establish a connection."
+  },
+  {
+    "QID": "C-144",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about firewall traffic. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "firewall traffic"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does a firewall do with incoming and outgoing packets?",
+    "Answer": "A firewall examines each incoming and outgoing packet and applies its set of rules to determine whether the packet should be allowed or blocked based on the criteria defined in the rules."
+  },
+  {
+    "QID": "C-154",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about IP packets. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "IP packets"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What attacks can IP packets be subject to?",
+    "Answer": "IP packets can be subject to various attacks, including spoofing, fragmentation attacks, and denial-of-service attacks."
+  },
+  {
+    "QID": "C-164",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about tcpdump pcap. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "tcpdump pcap"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the advantages of tcpdump?",
+    "Answer": "Tcpdump is lightweight, does not consume a lot of system resources, and can be easily used on remote systems via SSH."
+  },
+  {
+    "QID": "C-174",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about configuration files. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "configuration files"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common configuration settings found in configuration files?",
+    "Answer": "Common configuration settings found in configuration files include database connection strings, server addresses and ports, logging levels, and security settings."
+  },
+  {
+    "QID": "C-184",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about ICMP error messages. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "ICMP error messages"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of ICMP error messages?",
+    "Answer": "The purpose of ICMP error messages is to inform the sender of a packet that an error has occurred in the transmission of the packet."
+  },
+  {
+    "QID": "C-194",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about network traffic. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network traffic"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some examples of local network traffic?",
+    "Answer": "Examples of local network traffic include file transfers, printing, and communication between devices on the same network."
+  },
+  {
+    "QID": "C-204",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about system messages. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "system messages"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What makes an effective system message?",
+    "Answer": "An effective system message should be clear, concise, and relevant to the user or system administrator. It should provide enough information to help diagnose and troubleshoot issues, but not overwhelm the user with unnecessary technical details."
+  },
+  {
+    "QID": "C-214",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about System Log. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "System Log"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a centralized logging system?",
+    "Answer": "A centralized logging system is a tool that can be used to collect system logs from multiple systems and store them in a central location for analysis."
+  },
+  {
+    "QID": "C-224",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about dropped packets.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "dropped packets"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What tools can be used to monitor dropped packets?",
+    "Answer": "Tools such as network monitoring software, packet sniffers, and protocol analyzers can be used to monitor and troubleshoot dropped packets in a network."
+  },
+  {
+    "QID": "C-234",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Encryption. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Encryption"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the difference between plain or unencrypted data and encrypted data?",
+    "Answer": "Plain or unencrypted data is readable, while encrypted data is unreadable without the use of a specific key or password."
+  },
+  {
+    "QID": "C-244",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Decryption. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Decryption"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some applications of decryption?",
+    "Answer": "Decryption is used in many different applications, including secure messaging, file sharing, and e-commerce."
+  },
+  {
+    "QID": "C-254",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Sha. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Sha"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some applications of SHA?",
+    "Answer": "SHA is used in many different applications, including digital signatures, SSL certificates, and file integrity checking."
+  },
+  {
+    "QID": "C-264",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about XOR. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "XOR"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the truth table for XOR?",
+    "Answer": "The truth table for XOR shows that the output is 1 only when one of the input bits is 1 and the other is 0, and the output is 0 when both input bits are either 0 or 1."
+  },
+  {
+    "QID": "C-274",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Hash functions. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Hash functions"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is collision resistance?",
+    "Answer": "Collision resistance is a property of a hash function that makes it difficult to find two different inputs that produce the same output, or hash value."
+  },
+  {
+    "QID": "C-284",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about RPC Null commands. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "RPC Null commands"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can information disclosure occur through RPC null sessions?",
+    "Answer": "Information disclosure can occur through RPC null sessions if an attacker gains access to sensitive information such as user accounts, shares, or passwords."
+  },
+  {
+    "QID": "C-294",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about host scripts. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "host scripts"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can host scripts be used for reconnaissance in network scanning?",
+    "Answer": "Host scripts can be used to gather information about the target hosts, such as open ports, services running on the ports, and operating system details."
+  },
+  {
+    "QID": "C-304",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about brute force script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "brute force script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is password cracking?",
+    "Answer": "Password cracking is a type of brute force attack that involves guessing passwords by trying every possible combination of characters until the correct one is found."
+  },
+  {
+    "QID": "C-314",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about denial of service script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "dos script",
+      "denial of service script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a SYN flood attack?",
+    "Answer": "A SYN flood attack is a type of DoS attack that exploits the TCP/IP protocol by sending a large number of SYN requests to a target system, overwhelming its resources and making it unavailable to legitimate users."
+  },
+  {
+    "QID": "C-324",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about malware script. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "malware script"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is a worm?",
+    "Answer": "A worm is a self-replicating malware script that spreads over computer networks without the need for user interaction, exploiting security vulnerabilities to compromise multiple systems."
+  },
+  {
+    "QID": "C-334",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Honeypot. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Honeypot"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can honeypots contribute to threat intelligence?",
+    "Answer": "Honeypots generate valuable information about new attack techniques, vulnerabilities, and trends, providing insights for improving overall security measures."
+  },
+  {
+    "QID": "C-344",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Risk Assessment. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Risk Assessment"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is risk evaluation important in risk assessment?",
+    "Answer": "Risk evaluation assesses the potential impact of risks on the organization's objectives, resources, reputation, and compliance requirements. It helps determine the level of risk and the need for further action."
+  },
+  {
+    "QID": "C-354",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Penetration Testing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Penetration Testing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of the planning and reconnaissance phase in penetration testing?",
+    "Answer": "The planning and reconnaissance phase involves gathering information about the target system to understand its architecture, technologies used, and potential entry points for attacks."
+  },
+  {
+    "QID": "C-364",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Port scan. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Port scan"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of a TCP Connect Scan?",
+    "Answer": "A TCP Connect Scan attempts to establish a full TCP connection with the target port to determine if it is open."
+  },
+  {
+    "QID": "C-374",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Intrusion Detection. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Intrusion Detection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some techniques used by intrusion detection systems?",
+    "Answer": "Intrusion detection systems use techniques such as signature-based detection, anomaly-based detection, and heuristic-based detection."
+  },
+  {
+    "QID": "C-384",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Security Policy. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Security Policy"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How should a security policy be implemented?",
+    "Answer": "A security policy should be regularly reviewed, updated, communicated to all stakeholders, and aligned with industry best practices and evolving security threats."
+  },
+  {
+    "QID": "C-394",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about packet filtering technique. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "packet filtering"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What actions can be taken based on packet filtering rules?",
+    "Answer": "Based on packet filtering rules, packets can be allowed to pass through, dropped (blocked), or other actions can be applied."
+  },
+  {
+    "QID": "C-404",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about white-box testing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white-box testing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is statement coverage?",
+    "Answer": "Statement coverage ensures that every statement in the code is executed at least once during testing."
+  },
+  {
+    "QID": "C-414",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about vulnerability detection techniques. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "vulnerability detection"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is penetration testing?",
+    "Answer": "Penetration testing is a technique that simulates real-world attacks to identify vulnerabilities by conducting controlled attacks on systems, networks, or applications."
+  },
+  {
+    "QID": "C-424",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Malware detections. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Malware detections"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is behavior-based detection?",
+    "Answer": "Behavior-based detection analyzes the actions and behavior of software to identify suspicious or malicious activities."
+  },
+  {
+    "QID": "C-434",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Bad Config. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Bad Config"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can bad configuration be mitigated?",
+    "Answer": "Bad configuration can be mitigated by following security best practices, regularly reviewing and updating configurations, applying security patches and updates, and implementing strong authentication mechanisms."
+  },
+  {
+    "QID": "C-444",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Weak Password. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Weak Password"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some examples of weak password practices?",
+    "Answer": "Examples of weak password practices include using common words, using personal information, using simple patterns, and reusing passwords across multiple accounts."
+  },
+  {
+    "QID": "C-454",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about HTTP anomaly. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "HTTP anomaly"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why are abnormal traffic patterns considered as HTTP anomalies?",
+    "Answer": "Abnormal traffic patterns, such as sudden spikes or drops in volume, indicate potential attacks or suspicious activities within HTTP traffic."
+  },
+  {
+    "QID": "C-464",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about security holes.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "security holes"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is Cross-Site Scripting (XSS)?",
+    "Answer": "Cross-Site Scripting is a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, potentially leading to session hijacking or data theft."
+  },
+  {
+    "QID": "C-474",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about configuration flaws. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "configuration flaws"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Why is it important to identify and remediate configuration flaws?",
+    "Answer": "Identifying and remedying configuration flaws is crucial to ensure the security and integrity of the IT infrastructure."
+  },
+  {
+    "QID": "C-484",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Common Vulnerabilities and Exposures (CVE). Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Common Vulnerabilities and Exposures (CVE)"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does CVE help organizations?",
+    "Answer": "CVE helps organizations understand and prioritize security risks by providing a centralized database of known vulnerabilities. It allows them to track and monitor vulnerabilities affecting their systems."
+  },
+  {
+    "QID": "C-494",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about spoofing. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "spoofing"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can organizations mitigate spoofing attacks?",
+    "Answer": "Organizations can implement security measures such as encryption, multi-factor authentication, digital certificates, and robust network monitoring."
+  },
+  {
+    "QID": "C-504",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about buffer overflow exploit. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "buffer overflow exploit"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How can developers prevent buffer overflow exploits in their software?",
+    "Answer": "Developers should follow secure coding practices, including input validation and proper memory management techniques."
+  },
+  {
+    "QID": "C-514",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about FTP Anomaly. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "FTP Anomaly"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the potential risks associated with FTP anomalies?",
+    "Answer": "FTP anomalies may indicate unauthorized access, data exfiltration, malware distribution, or attempts to exploit vulnerabilities in the FTP server or client."
+  },
+  {
+    "QID": "C-524",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Forging. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Forging"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the potential consequences of forgery?",
+    "Answer": "Forgery can lead to unauthorized access, data breaches, and manipulation of sensitive information."
+  },
+  {
+    "QID": "C-534",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about browsers. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "browsers"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are extensions or add-ons in browsers?",
+    "Answer": "Extensions or add-ons are additional software components that extend the capabilities of browsers."
+  },
+  {
+    "QID": "C-544",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about user interface. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "user interface"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some interactive elements in user interface design?",
+    "Answer": "Interactive elements in user interface design include buttons, forms, menus, and other controls that allow users to input data, perform actions, and navigate through the system."
+  },
+  {
+    "QID": "C-554",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about SSH service. Generate 10 questions with answers based on above writeup.",
+    "Entity": [
+      "SSH service"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the key features of SSH?",
+    "Answer": "SSH provides secure authentication, encryption, and data integrity, along with support for remote access and file transfer."
+  },
+  {
+    "QID": "C-564",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about logging service. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "logging service"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some common features of logging services?",
+    "Answer": "Common features include log aggregation, storage, search capabilities, real-time alerting, visualization, reporting, and integration with SIEM systems."
+  },
+  {
+    "QID": "C-574",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about webapp. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "webapp"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What technologies are used in the front-end of a web application?",
+    "Answer": "Front-end technologies include HTML, CSS, and JavaScript."
+  },
+  {
+    "QID": "C-584",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about website. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "website"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some security measures for websites?",
+    "Answer": "Security measures include using secure communication protocols, implementing authentication and access controls, updating software and plugins, and conducting security audits."
+  },
+  {
+    "QID": "C-594",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about IPTables. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "IPTables"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are IPTables rules?",
+    "Answer": "IPTables rules are predefined conditions that specify how network packets should be processed and filtered."
+  },
+  {
+    "QID": "C-604",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about UDP services. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "UDP services"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Does UDP provide error checking or retransmission of lost packets?",
+    "Answer": "No, UDP does not provide error checking or retransmission of lost packets. It is the responsibility of the application layer to handle these aspects if required."
+  },
+  {
+    "QID": "C-614",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about kernel. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "kernel"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does the kernel interact with hardware devices?",
+    "Answer": "The kernel manages device drivers that facilitate communication between software and hardware devices, allowing applications to interact with peripherals like disks, network cards, and printers."
+  },
+  {
+    "QID": "C-624",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about mail programs. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "mail programs"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Can I compose and format emails using mail programs?",
+    "Answer": "Yes, mail programs provide a composing interface where you can create and format emails with various formatting options."
+  },
+  {
+    "QID": "C-634",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about linux box. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "linux box"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some popular Linux distributions?",
+    "Answer": "Popular Linux distributions include Ubuntu, Fedora, CentOS, and Debian."
+  },
+  {
+    "QID": "C-644",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about home network. Generate 10 questions with answers based on above writeup. Use JSON format.v",
+    "Entity": [
+      "home network"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What security measures should be implemented in a home network?",
+    "Answer": "Securing the Wi-Fi network with a strong password, enabling encryption, and regularly updating the router's firmware are important security measures."
+  },
+  {
+    "QID": "C-654",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about public domain.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "public domain"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Are all works created by the government automatically in the public domain?",
+    "Answer": "Not necessarily. While some government works may be in the public domain, others may be protected by copyright."
+  },
+  {
+    "QID": "C-664",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about client gateway server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "client gateway server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "In which scenarios are client gateway servers deployed?",
+    "Answer": "Client gateway servers are deployed in small to large-scale networks, enterprise environments, and cloud-based infrastructures."
+  },
+  {
+    "QID": "C-674",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about live hosts. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "live hosts"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What tools and techniques are used to discover live hosts on a network?",
+    "Answer": "Network administrators use tools and techniques to discover and monitor live hosts on their networks."
+  },
+  {
+    "QID": "C-684",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who manages and operates servers?",
+    "Answer": "Servers are typically managed and operated by system administrators or IT professionals."
+  },
+  {
+    "QID": "C-694",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about client in networking. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "client side",
+      "client in networking"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of a user interface in a client application?",
+    "Answer": "In client applications, the user interface allows users to interact with the application and make requests to the server."
+  },
+  {
+    "QID": "C-704",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about remote server. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "remote server"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of remote servers in remote collaboration?",
+    "Answer": "Remote servers enable remote collaboration by providing shared resources and services that allow individuals or teams located in different places to work together effectively."
+  },
+  {
+    "QID": "C-714",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about kali linux machine. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "kali linux machine"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Where can one find documentation and support for Kali Linux?",
+    "Answer": "Extensive documentation, user guides, tutorials, and a community-driven forum are available on the official Kali Linux website."
+  },
+  {
+    "QID": "C-724",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about virtual box. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "virtual box"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What networking options are available in VirtualBox?",
+    "Answer": "VirtualBox provides NAT, bridged, internal, and host-only networking options for virtual machines to communicate with each other and with the host system or external networks."
+  },
+  {
+    "QID": "C-734",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about wireshark. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "wireshark"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What filtering capabilities does Wireshark offer?",
+    "Answer": "Wireshark offers flexible filtering capabilities, allowing users to focus on specific network traffic based on criteria such as IP addresses, port numbers, and protocol types."
+  },
+  {
+    "QID": "C-744",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about burp suite. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "burp suite"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does the Scanner module in Burp Suite assist in security testing?",
+    "Answer": "The Scanner module automates the identification of vulnerabilities in web applications and provides detailed reports."
+  },
+  {
+    "QID": "C-754",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about snort. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "snort"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some key features of Snort?",
+    "Answer": "Some key features of Snort include protocol analysis, content searching, and pattern matching."
+  },
+  {
+    "QID": "C-764",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about port scanner. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "port scanner"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are the different types of port scans?",
+    "Answer": "The different types of port scans include TCP Connect Scan, SYN Scan, UDP Scan, Stealth Scan, and XMAS Scan."
+  },
+  {
+    "QID": "C-774",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about packet decoder. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "packet decoder"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What information can be extracted by a packet decoder?",
+    "Answer": "A packet decoder can extract and decode packet headers, payload, and protocol fields."
+  },
+  {
+    "QID": "C-784",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about firewall. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "firewall"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is stateful inspection?",
+    "Answer": "Stateful inspection is a firewall technique that tracks the state of network connections to ensure that only legitimate packets belonging to established connections are allowed."
+  },
+  {
+    "QID": "C-794",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about Nmap. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Nmap"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What additional information can Nmap provide about target systems?",
+    "Answer": "Nmap can provide details such as operating system detection, version detection of services, and network fingerprinting."
+  },
+  {
+    "QID": "C-804",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Intrusion Detection Systems (IDS).Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Intrusion Detection Systems (IDS)"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the difference between an IDS and an IPS?",
+    "Answer": "An IDS detects and alerts on potential security breaches, while an Intrusion Prevention System (IPS) can take automated actions to block or mitigate the detected threats."
+  },
+  {
+    "QID": "C-814",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Metasploit framework.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Metasploit framework"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "How does the Metasploit Framework simplify the process of exploiting vulnerabilities?",
+    "Answer": "The Metasploit Framework provides a user-friendly interface and automation features that make it easier to identify vulnerabilities, launch exploits, and execute post-exploitation activities."
+  },
+  {
+    "QID": "C-824",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about TCPdump. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "TCPdump"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What can TCPdump filter packets based on?",
+    "Answer": "TCPdump can filter packets based on criteria such as source/destination IP addresses, port numbers, protocols, packet size, and more."
+  },
+  {
+    "QID": "C-834",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about users in cybersecurity. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "users in cybersecurity",
+      "users"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of users in incident response?",
+    "Answer": "Users are often the first to notice signs of a security incident and play a crucial role in promptly reporting incidents for effective incident response."
+  },
+  {
+    "QID": "C-844",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about the role of employee in cybersecurity. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "employee in cybersecurity",
+      "employee"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What role do employees play in protecting data and maintaining confidentiality?",
+    "Answer": "Employees are responsible for handling and protecting sensitive data, adhering to data privacy regulations, and maintaining confidentiality to prevent unauthorized access or disclosure."
+  },
+  {
+    "QID": "C-854",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "hacker"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are script kiddies?",
+    "Answer": "Script kiddies are hackers with limited technical skills who use pre-written scripts or tools to launch simple attacks for personal satisfaction or bragging rights."
+  },
+  {
+    "QID": "C-864",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about black hat. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "black hat"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Are black hat hackers illegal?",
+    "Answer": "Yes, black hat hackers engage in illegal activities by exploiting computer systems and networks without proper authorization, which is a violation of cybersecurity laws."
+  },
+  {
+    "QID": "C-874",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about cybercriminals. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cybercriminals"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What methods do cybercriminals use?",
+    "Answer": "Cybercriminals employ sophisticated techniques and tools to steal sensitive information, commit financial fraud, spread malware, conduct phishing attacks, and engage in identity theft."
+  },
+  {
+    "QID": "C-884",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about attack host. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "attack host"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What tools and software are often found on attack hosts?",
+    "Answer": "Attack hosts are equipped with specialized tools, software, and scripts that aid in carrying out cyber attacks."
+  },
+  {
+    "QID": "C-894",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about White Hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "White Hacker"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Do white hat hackers require permission to test systems?",
+    "Answer": "Yes, white hat hackers always work with proper authorization and obtain permission before conducting security testing."
+  },
+  {
+    "QID": "C-904",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Security Engineer. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Security Engineer"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What tasks are security engineers involved in?",
+    "Answer": "Security engineers are involved in incident response, security audits, vulnerability assessments, and staying updated with the latest security threats and technologies."
+  },
+  {
+    "QID": "C-914",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about Ethical Hacker. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "Ethical Hacker."
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the purpose of simulating real-world attack scenarios?",
+    "Answer": "Simulating real-world attack scenarios helps ethical hackers identify vulnerabilities that could be exploited by malicious hackers and provides recommendations for strengthening security controls."
+  },
+  {
+    "QID": "C-924",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about teamDefense. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "teamDefense"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What proactive measures does TeamDefense focus on?",
+    "Answer": "TeamDefense focuses on proactive measures such as threat intelligence sharing, continuous monitoring, vulnerability management, and incident response planning."
+  },
+  {
+    "QID": "C-934",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about network administrators.Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network administrators"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the role of network administrators in network security?",
+    "Answer": "Network administrators implement security measures, monitor network traffic, and respond to security incidents to protect against unauthorized access and data breaches."
+  },
+  {
+    "QID": "C-944",
+    "Method": "Zero-shot",
+    "Prompt": "Tell me about white hats. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white hats"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Who do white hats work with?",
+    "Answer": "White hats work with security teams, system administrators, and software developers to ensure effective implementation of security measures."
+  },
+  {
+    "QID": "C-954",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about cyber defenders. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "cyber defenders"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some roles in cyber defense?",
+    "Answer": "Cyber defenders may work as security analysts, incident responders, security architects, or security operations center (SOC) personnel."
+  },
+  {
+    "QID": "C-964",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about pen tester. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "pen tester"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the systematic approach of pen testers?",
+    "Answer": "Pen testers follow a systematic approach that includes information gathering, vulnerability scanning, manual testing, exploitation, and reporting."
+  },
+  {
+    "QID": "C-974",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about network operators. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "network operators"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the importance of network security for network operators?",
+    "Answer": "Network operators implement and enforce security policies, stay updated on security threats, and proactively protect the network from potential risks."
+  },
+  {
+    "QID": "C-984",
+    "Method": "Zero-shot",
+    "Prompt": "tell me about white-box tester. Generate 10 questions with answers based on above writeup. Use JSON format.",
+    "Entity": [
+      "white-box tester"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What techniques do white-box testers use?",
+    "Answer": "White-box testers utilize techniques such as code analysis, configuration file review, and penetration testing to assess system security."
+  },
+  {
+    "QID": "C-994",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about Session ID. Then generate 10 questions with answers on Session ID based on the writeup\",",
+    "Entity": "Session ID",
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What are some potential security risks associated with session IDs?",
+    "Answer": "Session hijacking attacks, where an attacker steals a user's session ID and uses it to impersonate the user, is a potential security risk associated with session IDs."
+  },
+  {
+    "QID": "C-1004",
+    "Method": "Zero-shot",
+    "Prompt": "\"Generate 10 questions with short answers based on above writeup on cookies.\",",
+    "Entity": [
+      "Cookies"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "Are cookies created by the website or the user?",
+    "Answer": "Cookies are created by the website server."
+  },
+  {
+    "QID": "C-1012",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about Packet Forwarding. Then generate 10 questions with answers on Packet Forwarding based on the writeup\",",
+    "Entity": [
+      "Cookies"
+    ],
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What does the router do after consulting the routing table?",
+    "Answer": "The router forwards the packet to the next hop device, which repeats the process until the packet reaches its final destination."
+  },
+  {
+    "QID": "C-1022",
+    "Method": "Zero-shot",
+    "Prompt": "\"Tell me about IP address. Then generate 10 questions with answers on IP address based on the writeup\",",
+    "Entity": "IP address",
+    "Relation": [],
+    "Ontology": [],
+    "Question": "What is the difference between IPv4 and IPv6?,How does IPv6 differ from IPv4?",
+    "Answer": "IPv4 is the older protocol and uses 32-bit addresses, which limits the number of possible unique addresses to about 4 billion. IPv6, on the other hand, uses 128-bit addresses, which allows for a virtually unlimited number of unique addresses."
+  }
+]
