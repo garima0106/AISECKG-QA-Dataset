@@ -52403,7 +52403,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What tools can an ethical hacker use to analyze session ID vulnerabilities?",
@@ -52422,7 +52422,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is session hijacking, and how can an ethical hacker analyze it?",
@@ -52441,7 +52441,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is session fixation, and how can an ethical hacker analyze it?",
@@ -52460,7 +52460,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can an ethical hacker analyze the effectiveness of a website's session ID management?",
@@ -52479,7 +52479,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is session prediction, and how can an ethical hacker analyze it?",
@@ -52709,7 +52709,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can an ethical hacker analyze cookies in an app?",
@@ -52729,7 +52729,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What kind of information can an app's cookies store?",
@@ -52749,7 +52749,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is the purpose of an app using cookies?",
@@ -52769,7 +52769,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can an ethical hacker analyze cookies in an app?",
@@ -52789,7 +52789,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What kind of information can an app's cookies store?",
@@ -52809,7 +52809,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is the purpose of an app using cookies?",
@@ -52829,7 +52829,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What are some risks associated with an app using cookies?",
@@ -52849,7 +52849,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can an app protect user privacy when using cookies?",
@@ -52869,7 +52869,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is the difference between first-party and third-party cookies?",
@@ -52889,7 +52889,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can an app detect if a user has disabled cookies?",
@@ -52909,7 +52909,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is the role of the SameSite attribute in cookies?",
@@ -52929,7 +52929,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is cookie stealing?",
@@ -52949,7 +52949,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is cookie poisoning?",
@@ -53410,7 +53410,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is the role of a security team in analyzing packet forwarding?",
@@ -53429,7 +53429,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What are some security threats that can be detected through packet forwarding analysis?",
@@ -53448,7 +53448,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can a security team monitor packet forwarding on a network?",
@@ -53467,7 +53467,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is a packet sniffer?",
@@ -53486,7 +53486,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can a security team use packet sniffers to analyze packet forwarding?",
@@ -53505,7 +53505,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is an intrusion detection system (IDS)?",
@@ -53524,7 +53524,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can a security team use an IDS to analyze packet forwarding?",
@@ -53543,7 +53543,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "What is port scanning?",
@@ -53562,7 +53562,7 @@
             [
                 "securityTeam", 
                 "can_analyze", 
-                "feature",
+                "feature"
             ]
         ],
         "Question": "How can a security team detect port scanning through packet forwarding analysis?",

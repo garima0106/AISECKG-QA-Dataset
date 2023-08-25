@@ -778,7 +778,7 @@
   {
     "QID": "B-311",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?\",",
+    "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
     "Entity": [
       "Session ID",
       "Vulnerability"
@@ -799,10 +799,11 @@
   {
     "QID": "B-315",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?\",",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
     "Entity": [
-      "Session ID",
-      "Vulnerability"
+      "Cookies",
+      "hacker",
+      "vulnerability"
     ],
     "Relation": [
       "can_expose"
@@ -820,7 +821,7 @@
   {
     "QID": "B-326",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?\"",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?",
     "Entity": [
       "packet forwarding",
       "network traffic",
@@ -1627,7 +1628,7 @@
   {
     "QID": "B-312",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?\",",
+    "Prompt": "Generate questions with answer similar to questions, Q1: Will the app become vulnerable if session ID is exposed?, Q2: Which tools are used to analyze vulnerability exposed by session ID?",
     "Entity": [
       "Session ID",
       "Vulnerability"
@@ -1648,10 +1649,11 @@
   {
     "QID": "B-316",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?\",",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
     "Entity": [
-      "Session ID",
-      "Vulnerability"
+      "Cookies",
+      "hacker",
+      "vulnerability"
     ],
     "Relation": [
       "can_expose"
@@ -1669,7 +1671,7 @@
   {
     "QID": "B-327",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?\"",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?",
     "Entity": [
       "packet forwarding",
       "network traffic",
@@ -2476,10 +2478,11 @@
   {
     "QID": "B-317",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?\",",
+    "Prompt": "Generate questions with answer similar to questions. Q1: Can cookies be hacked? Q2: Can cookies expose user information to hacker?",
     "Entity": [
-      "Session ID",
-      "Vulnerability"
+      "Cookies",
+      "hacker",
+      "vulnerability"
     ],
     "Relation": [
       "can_expose"
@@ -2497,7 +2500,7 @@
   {
     "QID": "B-328",
     "Method": "In-Context Learning",
-    "Prompt": "\"Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?\"",
+    "Prompt": "Generate 10 questions with answer similar to questions, Q1: How does Routers and network devices make use of packet forwarding?, Q2: Can Packet forwarding be used to analyze network data and detect attacks?",
     "Entity": [
       "packet forwarding",
       "network traffic",
