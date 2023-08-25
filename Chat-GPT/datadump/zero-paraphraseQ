@@ -3590,3 +3590,269 @@ What is the role of a backdoor in a cyber attack?
       "question": "Why is white-box testing significant?",
       "answer": "White-box testing is significant as it aids organizations in addressing potential vulnerabilities and strengthening the security of their systems, applications, and networks."
     }
+
+
+
+Entity: ['Session ID']
+      "Question": "How does cross-site scripting (XSS) make a user's session ID vulnerable to attackers?",
+        "Answer": "Cross-site scripting is an attack where an attacker injects malicious code into a website, which is then executed by the user's browser. This can allow the attacker to steal the user's session ID, which can then be used for session hijacking or other attacks."
+    },
+    {
+        "QID": "A-2069p",
+        "Method": "Ontology-based",
+        "Prompt": ":\"generate questions with answers on situations in which attacker can exploit session ID.\",",
+        "Entity": [
+            "Session ID",
+            "Attacker"
+        ],
+        "Relation": "can_exploit",
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "sessionID"
+            ]
+        ],
+
+        {
+        "QID": "A-2067p",
+        "Method": "Ontology-based",
+        "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
+        "Entity": [
+            "Session ID",
+            "Attack"
+        ],
+        "Relation": "can_expose",
+        "Ontology": [
+            [
+                "feature",
+                "can_expose",
+                "vulnerability"
+            ],
+            [
+                "feature",
+                "can_detect",
+                "attack"
+            ]
+        ],
+        "Question": "What is session replay, and how does it make a user's session ID vulnerable to attackers?",
+        "Answer": "Session replay is an attack where an attacker records a user's session, including their session ID, and replays it later to gain unauthorized access to the user's account. This attack can be especially effective if the user's session contains sensitive information, such as login credentials."
+    },
+
+    {
+        "QID": "A-2112p",
+        "Method": "Ontology-based",
+         "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "In what way can an attack be exposed through packet forwarding?",
+        "Answer": "Packet forwarding can expose an attack if the routing table is manipulated to redirect packets to a malicious destination.,"
+    },
+    {
+        "QID": "A-2113p",
+        "Method": "Ontology-based",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "What is meant by packet hijacking?",
+        "Answer": "Packet hijacking is an attack in which an attacker intercepts and redirects network traffic to a malicious destination.,"
+    },
+
+     {
+        "QID": "A-2114p",
+        "Method": "Ontology-based",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "How can packet hijacking be achieved?",
+        "Answer": "Packet hijacking can be accomplished by manipulating the routing table on a network device to redirect traffic to a malicious destination.,"
+    },
+
+    {
+        "QID": "A-2115p",
+        "Method": "Ontology-based",
+        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "Define the term man-in-the-middle attack.",
+        "Answer": "A man-in-the-middle attack is an attack in which an attacker intercepts and manipulates network traffic between two parties.,"
+    },
+    {
+        "QID": "A-2116p",
+        "Method": "Ontology-based",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "How can packet forwarding enable a man-in-the-middle attack?",
+        "Answer": "Packet forwarding can facilitate a man-in-the-middle attack if the routing table is manipulated to redirect traffic to an attacker-controlled device.,"
+    },
+    {
+        "QID": "A-2117p",
+        "Method": "Ontology-based",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "What is a DDoS attack?",
+        "Answer": "A DDoS attack is an attack in which multiple devices flood a network or server with traffic, causing it to become unavailable.,"
+    },
+
+    {
+        "QID": "A-2118p",
+        "Method": "Ontology-based",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "How can packet forwarding be utilized in a DDoS attack?",
+        "Answer": "Packet forwarding can be used in a DDoS attack by redirecting a large volume of traffic to a single destination, overwhelming the network or server.,"
+    },
+
+    {
+        "QID": "A-2119p",
+        "Method": "Ontology-based",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "Explain what a routing protocol is.",
+        "Answer": "A routing protocol is a set of rules and algorithms used by networking devices to exchange routing information and make decisions about packet forwarding.,"
+    },
+
+     {
+        "QID": "A-2120p",
+        "Method": "Ontology-based",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "How can a malicious routing protocol be exploited to launch an attack?",
+        "Answer": "A malicious routing protocol can be used to redirect traffic to a malicious destination, exposing an attack.,"
+    },
+
+    {
+        "QID": "A-2121p",
+        "Method": "Ontology-based",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "How can packet filtering be utilized to prevent attacks that rely on packet forwarding?",
+        "Answer": "Packet filtering can be used to block traffic that does not meet certain criteria, such as source IP address or port number, to prevent attacks that rely on packet forwarding.,"
+    },

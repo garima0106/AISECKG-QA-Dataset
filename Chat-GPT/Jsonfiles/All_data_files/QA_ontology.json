@@ -52102,7 +52102,7 @@
     {
         "QID": "A-2061",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+        "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52128,7 +52128,7 @@
     {
         "QID": "A-2062",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+        "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52154,7 +52154,7 @@
     {
         "QID": "A-2063",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+        "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52178,7 +52178,7 @@
     {
         "QID": "A-2064",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+         "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52202,7 +52202,7 @@
     {
         "QID": "A-2065",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+         "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52226,7 +52226,7 @@
     {
         "QID": "A-2066",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+         "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52250,7 +52250,7 @@
     {
         "QID": "A-2067",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+        "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52268,13 +52268,13 @@
                 "attack"
             ]
         ],
-        "Question": "[What is session replay, and how does it exploit session IDs?,What is session replay, and how does it make a user's session ID vulnerable to attackers?]",
+        "Question": "What is session replay, and how does it exploit session IDs?",
         "Answer": "Session replay is an attack where an attacker records a user's session, including their session ID, and replays it later to gain unauthorized access to the user's account. This attack can be especially effective if the user's session contains sensitive information, such as login credentials."
     },
     {
         "QID": "A-2068",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which Session ID can expose attacks.\",",
+        "Prompt": "Generate questions with answers on situations in which Session ID can expose attacks.",
         "Entity": [
             "Session ID",
             "Attack"
@@ -52292,13 +52292,13 @@
                 "attack"
             ]
         ],
-        "Question": "[What is cross-site scripting (XSS), and how does it exploit session IDs?,How does cross-site scripting (XSS) make a user's session ID vulnerable to attackers?]",
+        "Question": "What is cross-site scripting (XSS), and how does it exploit session IDs?",
         "Answer": "Cross-site scripting is an attack where an attacker injects malicious code into a website, which is then executed by the user's browser. This can allow the attacker to steal the user's session ID, which can then be used for session hijacking or other attacks."
     },
     {
         "QID": "A-2069",
         "Method": "Ontology-based",
-        "Prompt": ":\"generate questions with answers on situations in which attacker can exploit session ID.\",",
+        "Prompt": "generate questions with answers on situations in which attacker can exploit session ID.",
         "Entity": [
             "Session ID",
             "Attacker"
@@ -52317,7 +52317,7 @@
     {
         "QID": "A-2070",
         "Method": "Ontology-based",
-        "Prompt": ":\"generate questions with answers on situations in which attacker can exploit session ID.\",",
+        "Prompt": "generate questions with answers on situations in which attacker can exploit session ID.",
         "Entity": [
             "Session ID",
             "Attacker"
@@ -52336,7 +52336,7 @@
     {
         "QID": "A-2071",
         "Method": "Ontology-based",
-        "Prompt": ":\"generate questions with answers on situations in which attacker can exploit session ID.\",",
+        "Prompt": "generate questions with answers on situations in which attacker can exploit session ID.",
         "Entity": [
             "Session ID",
             "Attacker"
@@ -52355,7 +52355,7 @@
     {
         "QID": "A-2072",
         "Method": "Ontology-based",
-        "Prompt": ":\"generate questions with answers on situations in which attacker can exploit session ID.\",",
+        "Prompt": "generate questions with answers on situations in which attacker can exploit session ID.",
         "Entity": [
             "Session ID",
             "Attacker"
@@ -52368,13 +52368,13 @@
                 "sessionID"
             ]
         ],
-        "Question": "What is cross-site request forgery (CSRF), and how can an attacker exploit a victim's session ID with it?",
+        "Question": "What is cross-site request forgery (CSRF) and how can an attacker exploit a victim's session ID with it?",
         "Answer": "Cross-site request forgery (CSRF) is an attack where an attacker tricks a victim into performing an action on a website without their knowledge or consent. An attacker can exploit a victim's session ID with CSRF by including the victim's session ID in a forged request. When the victim's browser submits the request, the website will see the request as coming from the victim's session and perform the action on their behalf. This can allow the attacker to perform actions such as making unauthorized purchases or changing the victim's account information."
     },
     {
         "QID": "A-2073",
         "Method": "Ontology-based",
-        "Prompt": ":\"generate questions with answers on situations in which attacker can exploit session ID.\",",
+        "Prompt": "generate questions with answers on situations in which attacker can exploit session ID.",
         "Entity": [
             "Session ID",
             "Attacker"
@@ -52393,7 +52393,7 @@
     {
         "QID": "A-2074",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which ethical hacker can analyze session ID.\",",
+        "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
         "Entity": [
             "Session ID",
             "securityTeam"
@@ -52401,9 +52401,9 @@
         "Relation": "can_analyze",
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What tools can an ethical hacker use to analyze session ID vulnerabilities?",
@@ -52412,7 +52412,7 @@
     {
         "QID": "A-2075",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which ethical hacker can analyze session ID.\",",
+        "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
         "Entity": [
             "Session ID",
             "securityTeam"
@@ -52420,9 +52420,9 @@
         "Relation": "can_analyze",
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is session hijacking, and how can an ethical hacker analyze it?",
@@ -52431,7 +52431,7 @@
     {
         "QID": "A-2076",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which ethical hacker can analyze session ID.\",",
+        "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
         "Entity": [
             "Session ID",
             "securityTeam"
@@ -52439,9 +52439,9 @@
         "Relation": "can_analyze",
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is session fixation, and how can an ethical hacker analyze it?",
@@ -52450,17 +52450,17 @@
     {
         "QID": "A-2077",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which ethical hacker can analyze session ID.\",",
+        "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
         "Entity": [
             "Session ID",
             "securityTeam"
         ],
         "Relation": "can_analyze",
-        "Ontology": [
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can an ethical hacker analyze the effectiveness of a website's session ID management?",
@@ -52469,17 +52469,17 @@
     {
         "QID": "A-2078",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate questions with answers on situations in which ethical hacker can analyze session ID.\",",
+        "Prompt": "Generate questions with answers on situations in which ethical hacker can analyze session ID.",
         "Entity": [
             "Session ID",
             "securityTeam"
         ],
         "Relation": "can_analyze",
-        "Ontology": [
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is session prediction, and how can an ethical hacker analyze it?",
@@ -52488,19 +52488,19 @@
     {
         "QID": "A-2079",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What are cookies in the context of an app?",
@@ -52509,19 +52509,19 @@
     {
         "QID": "A-2080",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How are cookies created by an app?",
@@ -52530,19 +52530,19 @@
     {
         "QID": "A-2081",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "Why do apps use cookies?",
@@ -52551,19 +52551,19 @@
     {
         "QID": "A-2082",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How do cookies impact app performance?",
@@ -52572,19 +52572,19 @@
     {
         "QID": "A-2083",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "Can cookies be deleted from an app?",
@@ -52593,19 +52593,19 @@
     {
         "QID": "A-2084",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
-        "Entity": [
-            "Session ID",
-            "securityTeam"
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+       "Entity": [
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "Are cookies secure in an app?",
@@ -52614,19 +52614,19 @@
     {
         "QID": "A-2085",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
-        "Entity": [
-            "Session ID",
-            "securityTeam"
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+       "Entity": [
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
-        "Ontology": [
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What happens if a user blocks cookies in an app?",
@@ -52635,19 +52635,19 @@
     {
         "QID": "A-2086",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
-        "Entity": [
-            "Session ID",
-            "securityTeam"
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+       "Entity": [
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How do cookies affect app privacy?",
@@ -52656,19 +52656,19 @@
     {
         "QID": "A-2087",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
-        "Entity": [
-            "Session ID",
-            "securityTeam"
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+       "Entity": [
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "Can cookies be used to identify a user in an app?",
@@ -52677,40 +52677,39 @@
     {
         "QID": "A-2088",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation where an app has cookies.\",",
-        "Entity": [
-            "Session ID",
-            "securityTeam"
+        "Prompt": "Generate 10 questions with answers for a situation where an app has cookies.",
+       "Entity": [
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How can app developers ensure the security of cookies?",
-        "Answer": "App developers can ensure the security of cookies by encrypting them, storing them in a"
+        "Answer": "App developers can ensure the security of cookies by encrypting them, storing them in app"
     },
     {
         "QID": "A-2089",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
-        "Entity": [
-            "Session ID",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
+         "Entity": [
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can an ethical hacker analyze cookies in an app?",
@@ -52719,19 +52718,18 @@
     {
         "QID": "A-2090",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What kind of information can an app's cookies store?",
@@ -52740,19 +52738,18 @@
     {
         "QID": "A-2091",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+       "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is the purpose of an app using cookies?",
@@ -52761,19 +52758,18 @@
     {
         "QID": "A-2092",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+       "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can an ethical hacker analyze cookies in an app?",
@@ -52782,19 +52778,18 @@
     {
         "QID": "A-2093",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What kind of information can an app's cookies store?",
@@ -52803,19 +52798,18 @@
     {
         "QID": "A-2094",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+       "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is the purpose of an app using cookies?",
@@ -52824,19 +52818,18 @@
     {
         "QID": "A-2095",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What are some risks associated with an app using cookies?",
@@ -52845,19 +52838,18 @@
     {
         "QID": "A-2096",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can an app protect user privacy when using cookies?",
@@ -52866,19 +52858,18 @@
     {
         "QID": "A-2097",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+       "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is the difference between first-party and third-party cookies?",
@@ -52887,19 +52878,18 @@
     {
         "QID": "A-2098",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can an app detect if a user has disabled cookies?",
@@ -52908,19 +52898,18 @@
     {
         "QID": "A-2099",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+       "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is the role of the SameSite attribute in cookies?",
@@ -52929,19 +52918,18 @@
     {
         "QID": "A-2100",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+       "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is cookie stealing?",
@@ -52950,19 +52938,18 @@
     {
         "QID": "A-2101",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on how to app has cookies with relation:('can_analyze')\",",
+        "Prompt": "Generate 10 questions with answers on how security team analyze cookies in an app,",
         "Entity": [
-            "Session ID",
+            "cookies",
+            "app",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is cookie poisoning?",
@@ -52971,19 +52958,19 @@
     {
         "QID": "A-2102",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "In the context of an app, what is the meaning of cookies?",
@@ -52992,19 +52979,19 @@
     {
         "QID": "A-2103",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How does an app use cookies?",
@@ -53013,19 +53000,19 @@
     {
         "QID": "A-2104",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+         "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "Can an app function properly without using cookies?",
@@ -53034,19 +53021,19 @@
     {
         "QID": "A-2105",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+         "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What are the risks associated with cookies in an app?",
@@ -53055,19 +53042,19 @@
     {
         "QID": "A-2106",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+         "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How can an app ensure the security of cookies?",
@@ -53076,19 +53063,19 @@
     {
         "QID": "A-2107",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What happens if a user deletes cookies in an app?",
@@ -53097,19 +53084,19 @@
     {
         "QID": "A-2108",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+         "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What is the purpose of session cookies in an app?",
@@ -53118,19 +53105,19 @@
     {
         "QID": "A-2109",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+         "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What is the purpose of persistent cookies in an app?",
@@ -53139,19 +53126,19 @@
     {
         "QID": "A-2110",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "How can an app inform users about the use of cookies?",
@@ -53160,19 +53147,19 @@
     {
         "QID": "A-2111",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
+        "Prompt": "Generate more questions with answers for a situation where an app has cookies.",
         "Entity": [
-            "Session ID",
-            "securityTeam"
+            "app",
+            "cookies"
         ],
         "Relation": [
             "has_a"
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "app", 
+                "has_a", 
+                "feature"
             ]
         ],
         "Question": "What is the difference between first-party and third-party cookies in an app?",
@@ -53181,28 +53168,7 @@
     {
         "QID": "A-2112",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate more questions with answers for a situation where an app has cookies.\",",
-        "Entity": [
-            "Session ID",
-            "securityTeam"
-        ],
-        "Relation": [
-            "has_a"
-        ],
-        "Ontology": [
-            [
-                "attacker",
-                "can_exploit",
-                "sessionID"
-            ]
-        ],
-        "Question": "How can packet forwarding expose an attack?,In what way can an attack be exposed through packet forwarding?",
-        "Answer": "Packet forwarding can expose an attack if the routing table is manipulated to redirect packets to a malicious destination.,"
-    },
-    {
-        "QID": "A-2113",
-        "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
+         "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format",
         "Entity": [
             "Packet forwarding",
             "Attack"
@@ -53214,17 +53180,20 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "What is packet hijacking?,What is meant by packet hijacking?",
-        "Answer": "Packet hijacking is an attack in which an attacker intercepts and redirects network traffic to a malicious destination.,"
+        "Question": "How can packet forwarding expose an attack?",
+        "Answer": "Packet forwarding can expose an attack if the routing table is manipulated to redirect packets to a malicious destination.,"
     },
     {
-        "QID": "A-2114",
+        "QID": "A-2113",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
-        "Entity": "Attack",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
         "Relation": [
             "can_expose"
         ],
@@ -53232,17 +53201,42 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "How can packet hijacking be accomplished?,How can packet hijacking be achieved?",
+        "Question": "What is packet hijacking?",
+        "Answer": "Packet hijacking is an attack in which an attacker intercepts and redirects network traffic to a malicious destination.,"
+    },
+    {
+        "QID": "A-2114",
+        "Method": "Ontology-based",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
+        "Relation": [
+            "can_expose"
+        ],
+        "Ontology": [
+            [
+                "attacker",
+                "can_exploit",
+                "feature"
+            ]
+        ],
+        "Question": "How can packet hijacking be accomplished?",
         "Answer": "Packet hijacking can be accomplished by manipulating the routing table on a network device to redirect traffic to a malicious destination.,"
     },
     {
         "QID": "A-2115",
         "Method": "Ontology-based",
         "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
-        "Entity": "Attack",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
         "Relation": [
             "can_expose"
         ],
@@ -53250,17 +53244,20 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "What is a man-in-the-middle attack?,Define the term man-in-the-middle attack.",
+        "Question": "What is a man-in-the-middle attack?",
         "Answer": "A man-in-the-middle attack is an attack in which an attacker intercepts and manipulates network traffic between two parties.,"
     },
     {
         "QID": "A-2116",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
-        "Entity": "Attack",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
         "Relation": [
             "can_expose"
         ],
@@ -53268,16 +53265,16 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "How can packet forwarding facilitate a man-in-the-middle attack?,How can packet forwarding enable a man-in-the-middle attack?",
+        "Question": "How can packet forwarding facilitate a man-in-the-middle attack?",
         "Answer": "Packet forwarding can facilitate a man-in-the-middle attack if the routing table is manipulated to redirect traffic to an attacker-controlled device.,"
     },
     {
         "QID": "A-2117",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
         "Entity": [
             "Packet forwarding",
             "Attack"
@@ -53289,17 +53286,20 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "What is a distributed denial-of-service (DDoS) attack?,What is a DDoS attack?",
+        "Question": "What is a distributed denial-of-service (DDoS) attack?",
         "Answer": "A DDoS attack is an attack in which multiple devices flood a network or server with traffic, causing it to become unavailable.,"
     },
     {
         "QID": "A-2118",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
-        "Entity": "Attack",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
         "Relation": [
             "can_expose"
         ],
@@ -53307,16 +53307,16 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "How can packet forwarding be used in a DDoS attack?,How can packet forwarding be utilized in a DDoS attack?",
+        "Question": "How can packet forwarding be used in a DDoS attack?",
         "Answer": "Packet forwarding can be used in a DDoS attack by redirecting a large volume of traffic to a single destination, overwhelming the network or server.,"
     },
     {
         "QID": "A-2119",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
         "Entity": [
             "Packet forwarding",
             "Attack"
@@ -53328,17 +53328,20 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "What is a routing protocol?,Explain what a routing protocol is.",
+        "Question": "What is a routing protocol?",
         "Answer": "A routing protocol is a set of rules and algorithms used by networking devices to exchange routing information and make decisions about packet forwarding.,"
     },
     {
         "QID": "A-2120",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
-        "Entity": "Packet forwarding",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
+        "Entity": [
+            "Packet forwarding",
+            "Attack"
+        ],
         "Relation": [
             "can_expose"
         ],
@@ -53346,16 +53349,16 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "How can a malicious routing protocol be used to launch an attack?,How can a malicious routing protocol be exploited to launch an attack?",
+        "Question": "How can a malicious routing protocol be used to launch an attack?",
         "Answer": "A malicious routing protocol can be used to redirect traffic to a malicious destination, exposing an attack.,"
     },
     {
         "QID": "A-2121",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
         "Entity": [
             "Packet forwarding",
             "Attack"
@@ -53367,16 +53370,16 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
-        "Question": "How can packet filtering be used to prevent attacks that rely on packet forwarding?,How can packet filtering be utilized to prevent attacks that rely on packet forwarding?",
+        "Question": "How can packet filtering be used to prevent attacks that rely on packet forwarding?",
         "Answer": "Packet filtering can be used to block traffic that does not meet certain criteria, such as source IP address or port number, to prevent attacks that rely on packet forwarding.,"
     },
     {
         "QID": "A-2122",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; \"Packet forwarding\", \"Attack\" and Relation: \"can_expose\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, Attack and Relation:can_expose",
         "Entity": [
             "Packet forwarding",
             "Attack"
@@ -53388,7 +53391,7 @@
             [
                 "attacker",
                 "can_exploit",
-                "sessionID"
+                "feature"
             ]
         ],
         "Question": "What is packet forwarding?",
@@ -53397,16 +53400,17 @@
     {
         "QID": "A-2123",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
-        "Entity": "Packet forwarding",
-        "Relation": [
-            "can_expose"
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
+        "Entity": [
+            "Packet forwarding",
+            "securityTeam"
         ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is the role of a security team in analyzing packet forwarding?",
@@ -53415,19 +53419,17 @@
     {
         "QID": "A-2124",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
         "Entity": [
             "Packet forwarding",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What are some security threats that can be detected through packet forwarding analysis?",
@@ -53436,19 +53438,17 @@
     {
         "QID": "A-2125",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
         "Entity": [
             "Packet forwarding",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can a security team monitor packet forwarding on a network?",
@@ -53457,19 +53457,17 @@
     {
         "QID": "A-2126",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
         "Entity": [
             "Packet forwarding",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is a packet sniffer?",
@@ -53478,16 +53476,17 @@
     {
         "QID": "A-2127",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
-        "Entity": "securityTeam",
-        "Relation": [
-            "can_analyze"
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
+        "Entity": [
+            "Packet forwarding",
+            "securityTeam"
         ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can a security team use packet sniffers to analyze packet forwarding?",
@@ -53496,19 +53495,17 @@
     {
         "QID": "A-2128",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
         "Entity": [
             "Packet forwarding",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is an intrusion detection system (IDS)?",
@@ -53517,16 +53514,17 @@
     {
         "QID": "A-2129",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
-        "Entity": "securityTeam",
-        "Relation": [
-            "can_analyze"
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
+        "Entity": [
+            "Packet forwarding",
+            "securityTeam"
         ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can a security team use an IDS to analyze packet forwarding?",
@@ -53535,19 +53533,17 @@
     {
         "QID": "A-2130",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
+        "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
         "Entity": [
             "Packet forwarding",
             "securityTeam"
         ],
-        "Relation": [
-            "can_analyze"
-        ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "What is port scanning?",
@@ -53556,16 +53552,17 @@
     {
         "QID": "A-2131",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers for a situation when security team can analyze packet forwarding  in JSON format with a QID and Entity; \"Packet forwarding\", \"securityTeam\" and Relation: \"can_analyze\"\"",
-        "Entity": "securityTeam",
-        "Relation": [
-            "can_analyze"
+       "Prompt": "Generate 10 questions with answers for a situation when packet forwarding can expose an attack in JSON format with Entity; Packet forwarding, securityTeam and Relation:can_analyze",
+        "Entity": [
+            "Packet forwarding",
+            "securityTeam"
         ],
-        "Ontology": [
+        "Relation": "can_analyze",
+       "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "securityTeam", 
+                "can_analyze", 
+                "feature",
             ]
         ],
         "Question": "How can a security team detect port scanning through packet forwarding analysis?",
@@ -53574,7 +53571,7 @@
     {
         "QID": "A-2132",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+        "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53584,9 +53581,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "What is the role of an IP address in data analysis?",
@@ -53595,7 +53592,7 @@
     {
         "QID": "A-2133",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",v",
+        "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53605,9 +53602,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "How can an IP address be used to analyze data?",
@@ -53616,7 +53613,7 @@
     {
         "QID": "A-2134",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+        "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53626,9 +53623,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "What is the benefit of analyzing IP address data?",
@@ -53637,7 +53634,7 @@
     {
         "QID": "A-2135",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+        "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53647,9 +53644,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "How can IP address data be used to monitor user behavior?",
@@ -53658,7 +53655,7 @@
     {
         "QID": "A-2136",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53668,9 +53665,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "What is the significance of IP address data in security analysis?",
@@ -53679,7 +53676,7 @@
     {
         "QID": "A-2137",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53689,9 +53686,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "How can IP address data be used to track website traffic?",
@@ -53700,7 +53697,7 @@
     {
         "QID": "A-2138",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53710,9 +53707,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "What is the role of IP address data in identifying fraudulent activity?",
@@ -53721,7 +53718,7 @@
     {
         "QID": "A-2139",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53731,9 +53728,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "How does analyzing IP address data benefit marketing strategies?",
@@ -53742,7 +53739,7 @@
     {
         "QID": "A-2140",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53752,9 +53749,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "What is the value of analyzing IP address data in e-commerce?",
@@ -53763,7 +53760,7 @@
     {
         "QID": "A-2141",
         "Method": "Ontology-based",
-        "Prompt": "\"Generate 10 questions with answers on a situation where IP address can help in analyzing data.\",",
+       "Prompt": "Generate 10 questions with answers on a situation where IP address can help in analyzing data.",
         "Entity": [
             "IP address",
             "data"
@@ -53773,9 +53770,9 @@
         ],
         "Ontology": [
             [
-                "attacker",
-                "can_exploit",
-                "sessionID"
+                "feature",
+                "can_analyze",
+                "data"
             ]
         ],
         "Question": "How does IP address data support data-driven decision making?",
