@@ -1,4 +1,3 @@
----feature----
 
 Tell me about Session ID 
 P: A session ID (session identifier) is a unique identifier that is assigned to a user or a client during a session with a web server. It is a string of characters that is used to identify a specific session and can be used to maintain state information between multiple requests and responses.
@@ -104,7 +103,6 @@ The structure of the TCP header is fixed, with each field being a set number of 
 The TCP header plays a crucial role in ensuring reliable and efficient transmission of data over a network. By providing information about the packet and its contents, the header allows the receiving device to reconstruct the data in the correct order and verify its integrity.
 
 
----attack---
 
 Tell me about Sql Injection
 
@@ -184,7 +182,6 @@ Tell me about Phishing.
 Phishing is a type of cyber attack in which an attacker poses as a legitimate entity, such as a financial institution or email provider, to trick individuals into providing sensitive information, such as passwords, credit card numbers, or personal identification numbers (PINs). Phishing attacks typically involve sending fraudulent emails or messages that appear to come from a trusted source and contain a link to a fake website or a malicious attachment. When the victim clicks on the link or downloads the attachment, they are directed to a fake website or prompted to enter their information, which is then captured by the attacker. Phishing attacks can also be carried out through phone calls or text messages. To protect against phishing attacks, individuals should be cautious when clicking on links or downloading attachments from unknown sources, verify the legitimacy of emails or messages before providing any information, and use anti-phishing software or browser extensions.
 
 
---- Data---
 Tell me about TCP SYN Packet
 
 TCP SYN packet is a type of packet used in the three-way handshake process in establishing a TCP connection between two devices over a network. The SYN packet is sent by the initiating device to the receiving device to request a connection. The receiving device responds with a SYN-ACK packet, and the initiating device acknowledges the response with an ACK packet to complete the connection establishment. The SYN packet contains specific information such as the sequence number, source and destination ports, and other TCP header information. It is an important component of the TCP protocol and is used in various network applications and services. The SYN packet can also be used in network-based attacks, such as SYN flooding, which can disrupt network communications by overwhelming the target device with a large number of SYN packets.
