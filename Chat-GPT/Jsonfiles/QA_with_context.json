@@ -156,9 +156,7 @@
     {
         "QID": "B-8",
         "Method": "In-Context Learning",
-        "Prompt": "Generate 10 questions with an answer similar to questions, Q1: What factors
-
- are considered when determining the severity level of a vulnerability?, Q2: What are some examples of high-severity vulnerabilities? Use JSON format.",
+        "Prompt": "Generate 10 questions with an answer similar to questions, Q1: What factors are considered when determining the severity level of a vulnerability?, Q2: What are some examples of high-severity vulnerabilities?",
         "Entity": [
             "severity level",
             "vulnerability"
@@ -180,7 +178,7 @@
     {
         "QID": "B-9",
         "Method": "In-Context Learning",
-        "Prompt": "Generate 10 questions with an answer similar to questions, Q1: How can a system administrator grant access privileges to a user?, Q2: What are some tools used by system administrators to manage access privileges? Use JSON format.",
+        "Prompt": "Generate 10 questions with an answer similar to questions, Q1: How can a system administrator grant access privileges to a user?, Q2: What are some tools used by system administrators to manage access privileges?",
         "Entity": [
             "system administrator",
             "access privileges",
@@ -2698,7 +2696,8 @@
     "Context": "Packet injection is a technique used in computer networking to send custom-crafted packets to a target device or network, with the goal of exploiting vulnerabilities or manipulating network traffic. In packet injection, an attacker or a network administrator can create packets with specific payload contents, such as commands, data, or malware, and inject them into the network stream.",
     "Question": "What are the potential consequences of a successful SQL injection attack?",
     "Answer": "A successful SQL injection attack can lead to unauthorized access to databases, manipulation or deletion of data, exposure of sensitive information, bypassing authentication mechanisms, and even the takeover of the entire system hosting the database."
-},
+}
+]
 
 
 

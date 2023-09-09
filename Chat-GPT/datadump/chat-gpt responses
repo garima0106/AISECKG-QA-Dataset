@@ -1,47 +1,28 @@
 
 Tell me about Session ID 
-P: A session ID (session identifier) is a unique identifier that is assigned to a user or a client during a session with a web server. It is a string of characters that is used to identify a specific session and can be used to maintain state information between multiple requests and responses.
-
+Para: A session ID (session identifier) is a unique identifier that is assigned to a user or a client during a session with a web server. It is a string of characters that is used to identify a specific session and can be used to maintain state information between multiple requests and responses.
 When a user accesses a website, a session ID is generated and stored on the server-side. This session ID is then sent to the client-side in the form of a cookie, which is a small piece of data that is stored in the user's browser. The cookie contains the session ID, which is used by the server to identify the user's session.
-
 Session IDs are important for maintaining state information between multiple requests and responses. For example, if a user logs into a website, the session ID can be used to maintain the user's authentication status throughout their session. Additionally, session IDs can be used to store user-specific information, such as shopping cart contents or preferences.
-
 It is important to note that session IDs can pose security risks if they are not properly managed. Session hijacking attacks, for example, involve stealing a user's session ID and using it to impersonate the user and gain access to their account or sensitive information. To prevent session hijacking and other related security issues, session IDs should be generated randomly, encrypted, and refreshed frequently.
 
 
 Tell me about Cookies
 
-Cookies are small text files that are stored on a user's device by a website when they visit it. They are used to keep track of user activity, store user preferences and login information, and remember user information across multiple pages or visits to the website.
-
+Para:Cookies are small text files that are stored on a user's device by a website when they visit it. They are used to keep track of user activity, store user preferences and login information, and remember user information across multiple pages or visits to the website.
 Cookies are created by the website server and can be read by the website or any other server that the user subsequently visits. They are used to identify and authenticate users, track user behavior, and personalize website content.
-
 Cookies can be classified into two types: session cookies and persistent cookies. Session cookies are temporary and are deleted once the user closes their browser, while persistent cookies remain on the user's device until they expire or are manually deleted.
-
 While cookies can be useful for enhancing the user experience, they can also raise privacy concerns as they can potentially track user behavior across different websites. Some users may choose to disable cookies in their browser settings to protect their privacy.
 
 
 Tell me about packet forwarding
 
-Packet forwarding is a key function of routers and other networking devices. It involves the transmission of network packets from one device to another based on their destination IP address. 
-
-When a packet is sent from a source device to a destination device, it is broken down into smaller units called packets, which are then transmitted through the network. Each packet contains information about its destination IP address, source IP address, and other relevant details.
-
-When a packet reaches a router or other networking device, the device examines the packet's destination IP address and consults its routing table to determine the next hop in the network. The routing table contains information about the network topology and the paths that packets can take to reach their destination. 
-
-The router then forwards the packet to the next hop device, which repeats the process until the packet reaches its final destination. In some cases, the packet may be forwarded to multiple devices before reaching its destination, especially if the destination is on a different network.
-
-Packet forwarding is an essential function for ensuring that data is transmitted efficiently and reliably across a network. It allows packets to be sent to their destination even if they need to traverse multiple devices and networks.
+Para:Packet forwarding is a key function of routers and other networking devices. It involves the transmission of network packets from one device to another based on their destination IP address. 
+When a packet is sent from a source device to a destination device, it is broken down into smaller units called packets, which are then transmitted through the network. Each packet contains information about its destination IP address, source IP address, and other relevant details.When a packet reaches a router or other networking device, the device examines the packet's destination IP address and consults its routing table to determine the next hop in the network. The routing table contains information about the network topology and the paths that packets can take to reach their destination. The router then forwards the packet to the next hop device, which repeats the process until the packet reaches its final destination. In some cases, the packet may be forwarded to multiple devices before reaching its destination, especially if the destination is on a different network.
+et forwarding is an essential function for ensuring that data is transmitted efficiently and reliably across a network. It allows packets to be sent to their destination even if they need to traverse multiple devices and networks.
 
 Tell me about IP Address
-
-
-
-An IP address, short for Internet Protocol address, is a unique identifier assigned to every device connected to the internet. This includes computers, smartphones, routers, and other devices.
-
-IP addresses are used to identify and communicate with devices on a network. They are made up of a series of numbers separated by dots, such as 192.168.1.1. Each number represents a different section of the address and can range from 0 to 255.
-
-There are two main types of IP addresses: IPv4 and IPv6. IPv4 is the older protocol and uses 32-bit addresses, which limits the number of possible unique addresses to about 4 billion. IPv6, on the other hand, uses 128-bit addresses, which allows for a virtually unlimited number of unique addresses.
-
+Para:An IP address, short for Internet Protocol address, is a unique identifier assigned to every device connected to the internet. This includes computers, smartphones, routers, and other devices.
+IP addresses are used to identify and communicate with devices on a network. They are made up of a series of numbers separated by dots, such as 192.168.1.1. Each number represents a different section of the address and can range from 0 to 255.There are two main types of IP addresses: IPv4 and IPv6. IPv4 is the older protocol and uses 32-bit addresses, which limits the number of possible unique addresses to about 4 billion. IPv6, on the other hand, uses 128-bit addresses, which allows for a virtually unlimited number of unique addresses.
 When you connect to the internet, your device is assigned an IP address by your internet service provider (ISP). This IP address can be static, meaning it stays the same every time you connect, or dynamic, meaning it changes each time you connect.
 
 IP addresses are essential for many internet functions, such as sending and receiving data, browsing websites, and connecting to other devices.
