@@ -1,0 +1,320 @@
+[
+    {
+        "Prompt": "Tell me about Session ID"
+    },
+    {
+        "Prompt": "Tell me about Cookies"
+    },
+    {
+        "Prompt": "Tell me about packet forwarding"
+    },
+    {
+        "Prompt": "Tell me about IP Address"
+    },
+    {
+        "Prompt": "Tell me about Severity levels"
+    },
+    {
+        "Prompt": "Tell me about Access privilege"
+    },
+    {
+        "Prompt": "Tell me about Private Key"
+    },
+    {
+        "Prompt": "Tell me about Sniff Mode"
+    },
+    {
+        "Prompt": "Tell me about communication protocol"
+    },
+    {
+        "Prompt": "Tell me about TCP header"
+    },
+    {
+        "Prompt": "Tell me about Sql Injection"
+    },
+    {
+        "Prompt": "Tell me about cross side scripting"
+    },
+    {
+        "Prompt": "Tell me about Dos Attack"
+    },
+    {
+        "Prompt": "Tell me about Smurf Attack"
+    },
+    {
+        "Prompt": "Tell me about Trojan horses"
+    },
+    {
+        "Prompt": "Tell me about Packet injection"
+    },
+    {
+        "Prompt": "Tell me about Teardrop attacks"
+    },
+    {
+        "Prompt": "Tell me about Idle scan attacks"
+    },
+    {
+        "Prompt": "Tell me about  backdoor Attack"
+    },
+    {
+        "Prompt": "Tell me about Phishing."
+    },
+    {
+        "Prompt": "Tell me about TCP SYN Packet"
+    },
+    {
+        "Prompt": "Tell me about firewall traffic"
+    },
+    {
+        "Prompt": "Tell me about IP packets"
+    },
+    {
+        "Prompt": "Tell me about tcpdump pcap"
+    },
+    {
+        "Prompt": "Tell me about configuration files"
+    },
+    {
+        "Prompt": "Tell me about ICMP error messages"
+    },
+    {
+        "Prompt": "Tell me about network traffic"
+    },
+    {
+        "Prompt": "Tell me about system messages"
+    },
+    {
+        "Prompt": "Tell me about System Log"
+    },
+    {
+        "Prompt": "Tell me about dropped packets"
+    },
+    {
+        "Prompt": "Tell me about Encryption"
+    },
+    {
+        "Prompt": "Tell me about Decryption"
+    },
+    {
+        "Prompt": "Tell me about Sha"
+    },
+    {
+        "Prompt": "Tell me about XOR"
+    },
+    {
+        "Prompt": "Tell me about Hash functions"
+    },
+    {
+        "Prompt": "Tell me about RPC Null commands"
+    },
+    {
+        "Prompt": "Tell me about host scripts"
+    },
+    {
+        "Prompt": "Tell me about brute force script"
+    },
+    {
+        "Prompt": "Tell me about denial of service script"
+    },
+    {
+        "Prompt": "Tell me about malware script"
+    },
+    {
+        "Prompt": "Tell me about Honeypot"
+    },
+    {
+        "Prompt": "tell me about Risk Assessment"
+    },
+    {
+        "Prompt": "Tell me about Penetration Testing"
+    },
+    {
+        "Prompt": "Tell me about Port scan"
+    },
+    {
+        "Prompt": "Tell me about Intrusion Detection."
+    },
+    {
+        "Prompt": "tell me about Security Policy"
+    },
+    {
+        "Prompt": "Tell me about packet filtering technique"
+    },
+    {
+        "Prompt": "tell me about white-box testing"
+    },
+    {
+        "Prompt": "Tell me about vulnerability detection techniques"
+    },
+    {
+        "Prompt": "Tell me about Malware detections"
+    },
+    {
+        "Prompt": "tell me about Bad Config"
+    },
+    {
+        "Prompt": "Tell me about Weak Password"
+    },
+    {
+        "Prompt": "tell me about HTTP anomaly"
+    },
+    {
+        "Prompt": "Tell me about security holes"
+    },
+    {
+        "Prompt": "Tell me about configuration flaws"
+    },
+    {
+        "Prompt": "tell me about Common Vulnerabilities and Exposures (CVE)"
+    },
+    {
+        "Prompt": "tell me about spoofing"
+    },
+    {
+        "Prompt": "tell me about buffer overflow exploit"
+    },
+    {
+        "Prompt": "tell me about FTP Anomaly"
+    },
+    {
+        "Prompt": "Tell me about Forging"
+    },
+    {
+        "Prompt": "Tell me about browsers"
+    },
+    {
+        "Prompt": "tell me about user interface"
+    },
+    {
+        "Prompt": "tell me about SSH service"
+    },
+    {
+        "Prompt": "tell me about logging service"
+    },
+    {
+        "Prompt": "tell me about webapp"
+    },
+    {
+        "Prompt": "tell me about website"
+    },
+    {
+        "Prompt": "tell me about IPTables"
+    },
+    {
+        "Prompt": "tell me about UDP services."
+    },
+    {
+        "Prompt": "Tell me about kernel"
+    },
+    {
+        "Prompt": "tell me about mail programs"
+    },
+    {
+        "Prompt": "tell me about linux box"
+    },
+    {
+        "Prompt": "tell me about home network"
+    },
+    {
+        "Prompt": "tell me about public domain"
+    },
+    {
+        "Prompt": "tell me about client gateway server"
+    },
+    {
+        "Prompt": "tell me about live hosts."
+    },
+    {
+        "Prompt": "tell me about server"
+    },
+    {
+        "Prompt": "Tell me about client in networking"
+    },
+    {
+        "Prompt": "tell me about remote server"
+    },
+    {
+        "Prompt": "Tell me about kali linux machine"
+    },
+    {
+        "Prompt": "tell me about virtual box"
+    },
+    {
+        "Prompt": "tell me about wireshark"
+    },
+    {
+        "Prompt": "tell me about burp suite"
+    },
+    {
+        "Prompt": "tell me about snort"
+    },
+    {
+        "Prompt": "tell me about port scanner."
+    },
+    {
+        "Prompt": "tell me about packet decoder"
+    },
+    {
+        "Prompt": "tell me about firewall"
+    },
+    {
+        "Prompt": "Tell me about Nmap"
+    },
+    {
+        "Prompt": "tell me about Intrusion Detection Systems (IDS)"
+    },
+    {
+        "Prompt": "tell me about Metasploit framework"
+    },
+    {
+        "Prompt": "tell me about TCPdump."
+    },
+    {
+        "Prompt": "tell me about users in cybersecurity"
+    },
+    {
+        "Prompt": "tell me about the role of employee in cybersecurity"
+    },
+    {
+        "Prompt": "tell me about hacker"
+    },
+    {
+        "Prompt": "tell me about black hat"
+    },
+    {
+        "Prompt": "tell me about cybercriminals"
+    },
+    {
+        "Prompt": "Tell me about attack host"
+    },
+    {
+        "Prompt": "tell me about White Hacker"
+    },
+    {
+        "Prompt": "tell me about Security Engineer"
+    },
+    {
+        "Prompt": "tell me about Ethical Hacker"
+    },
+    {
+        "Prompt": "tell me about teamDefense"
+    },
+    {
+        "Prompt": "tell me about network administrators"
+    },
+    {
+        "Prompt": "Tell me about white hats"
+    },
+    {
+        "Prompt": "Tell me about cyber defenders"
+    },
+    {
+        "Prompt": "tell me about pen tester."
+    },
+    {
+        "Prompt": "tell me about network operators"
+    },
+    {
+        "Prompt": "tell me about white-box tester"
+    }
+]
