@@ -1,5 +1,5 @@
 ## CyberQ - AISecKG-QA-Dataset
-## Kg-augmented Prompting in LLMs to generate Question-Answers for Cybersecurity Education
+## Kg-Augmented Prompting in LLMs to generate Question-Answers for Cybersecurity Education
 
 
 ![pipeline_1](https://github.com/garima0106/AISECKG-QA-Dataset/assets/54346120/1a54788c-8826-47c8-9298-83ac1757032c)
