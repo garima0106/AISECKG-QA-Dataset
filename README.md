@@ -1,4 +1,9 @@
-# AISECKG-QA-Dataset
+## CyberQ - AISecKG-QA-Dataset
+## Kg-augmented LLMs Prompting for Cybersecurity Education
+
+
+![pipeline_1](https://github.com/garima0106/AISECKG-QA-Dataset/assets/54346120/1a54788c-8826-47c8-9298-83ac1757032c)
+
 
 ### SQUAD
 python qa.py   --model_name_or_path t5-small   --dataset_name squad_v2   --context_column context   --question_column question   --answer_column answers   --do_train   --do_eval   --per_device_train_batch_size 4   --learning_rate 3e-5   --num_train_epochs 2   --max_seq_length 128   --doc_stride 128   --output_dir ./outputs   --overwrite_output_dir 
